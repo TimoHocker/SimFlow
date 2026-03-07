@@ -1,0 +1,2710 @@
+{
+  "id": "flow_1772573278271",
+  "name": "Pedals",
+  "nodes": [
+    {
+      "id": "node_1",
+      "type": "serial-input",
+      "dimensions": {
+        "width": 251,
+        "height": 81
+      },
+      "computedPosition": {
+        "x": -197.83662697100408,
+        "y": 1144.7688683015665,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1",
+            "position": "right",
+            "x": 248,
+            "y": 37.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -197.83662697100408,
+        "y": 1144.7688683015665
+      },
+      "data": {
+        "pattern": "A0"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_2",
+      "type": "serial-input",
+      "dimensions": {
+        "width": 251,
+        "height": 81
+      },
+      "computedPosition": {
+        "x": -244.22399607297712,
+        "y": 1333.9582972121395,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_2",
+            "position": "right",
+            "x": 248,
+            "y": 37.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -244.22399607297712,
+        "y": 1333.9582972121395
+      },
+      "data": {
+        "pattern": "A1"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_3",
+      "type": "serial-input",
+      "dimensions": {
+        "width": 251,
+        "height": 81
+      },
+      "computedPosition": {
+        "x": -269.04960764924533,
+        "y": 1527.6999347788485,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_3",
+            "position": "right",
+            "x": 248,
+            "y": 37.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -269.04960764924533,
+        "y": 1527.6999347788485
+      },
+      "data": {
+        "pattern": "A2"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_4",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 95.28474455066313,
+        "y": 1077.1395140178322,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_4",
+            "position": "right",
+            "x": 449.99993896484375,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_4",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 95.28474455066313,
+        "y": 1077.1395140178322
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{substring(value, 4)}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_5",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 83.26384265741399,
+        "y": 1269.7197773474038,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_5",
+            "position": "right",
+            "x": 450,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_5",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 83.26384265741399,
+        "y": 1269.7197773474038
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{substring(value, 4)}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_6",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 64.23082307145174,
+        "y": 1466.799850578951,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_6",
+            "position": "right",
+            "x": 450.00006103515625,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_6",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 64.23082307145174,
+        "y": 1466.799850578951
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{substring(value, 4)}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_7",
+      "type": "analog-calibrate",
+      "dimensions": {
+        "width": 205,
+        "height": 357
+      },
+      "computedPosition": {
+        "x": 551.9985775452121,
+        "y": 933.9615290264469,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_7",
+            "position": "right",
+            "x": 202,
+            "y": 175.49993896484375,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_7",
+            "position": "left",
+            "x": -3,
+            "y": 175.49993896484375,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 551.9985775452121,
+        "y": 933.9615290264469
+      },
+      "data": {
+        "calibrationName": "node_55",
+        "invert": true,
+        "deadzone": 0.05,
+        "sensitivity": 1,
+        "min": 2220,
+        "max": 22423
+      },
+      "events": {}
+    },
+    {
+      "id": "node_8",
+      "type": "analog-calibrate",
+      "dimensions": {
+        "width": 205,
+        "height": 357
+      },
+      "computedPosition": {
+        "x": 551.8552158430903,
+        "y": 1296.122237937545,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_8",
+            "position": "right",
+            "x": 202,
+            "y": 175.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_8",
+            "position": "left",
+            "x": -3,
+            "y": 175.5,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 551.8552158430903,
+        "y": 1296.122237937545
+      },
+      "data": {
+        "calibrationName": "node_56",
+        "invert": true,
+        "deadzone": 0.05,
+        "sensitivity": 1,
+        "min": 15554,
+        "max": 22739
+      },
+      "events": {}
+    },
+    {
+      "id": "node_9",
+      "type": "analog-calibrate",
+      "dimensions": {
+        "width": 205,
+        "height": 357
+      },
+      "computedPosition": {
+        "x": 552.6985315837345,
+        "y": 1657.7842148962318,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_9",
+            "position": "right",
+            "x": 202,
+            "y": 175.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 175.5,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 552.6985315837345,
+        "y": 1657.7842148962318
+      },
+      "data": {
+        "calibrationName": "node_57",
+        "invert": true,
+        "deadzone": 0.05,
+        "sensitivity": 1,
+        "min": 3319,
+        "max": 23059
+      },
+      "events": {}
+    },
+    {
+      "id": "node_10",
+      "type": "simconnect-event",
+      "dimensions": {
+        "width": 251,
+        "height": 168
+      },
+      "computedPosition": {
+        "x": 1645.3563743539185,
+        "y": 1051.2320935567388,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -3,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1645.3563743539185,
+        "y": 1051.2320935567388
+      },
+      "data": {
+        "eventName": "AXIS_RIGHT_BRAKE_SET",
+        "eventValue": "{{value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_11",
+      "type": "simconnect-event",
+      "dimensions": {
+        "width": 251,
+        "height": 168
+      },
+      "computedPosition": {
+        "x": 2011.6639282923522,
+        "y": 1477.8152869748658,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_11",
+            "position": "left",
+            "x": -3,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 2011.6639282923522,
+        "y": 1477.8152869748658
+      },
+      "data": {
+        "eventName": "AXIS_RUDDER_SET",
+        "eventValue": "{{value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_12",
+      "type": "simconnect-event",
+      "dimensions": {
+        "width": 251,
+        "height": 168
+      },
+      "computedPosition": {
+        "x": 1675.4953918674757,
+        "y": 1239.8832144901305,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_12",
+            "position": "left",
+            "x": -3,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1675.4953918674757,
+        "y": 1239.8832144901305
+      },
+      "data": {
+        "eventName": "AXIS_LEFT_BRAKE_SET",
+        "eventValue": "{{value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_13",
+      "type": "set-variable",
+      "dimensions": {
+        "width": 251,
+        "height": 168
+      },
+      "computedPosition": {
+        "x": 821.3546531973061,
+        "y": 1115.4024604461347,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_13",
+            "position": "right",
+            "x": 248.0001220703125,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_13",
+            "position": "left",
+            "x": -3,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 821.3546531973061,
+        "y": 1115.4024604461347
+      },
+      "data": {
+        "variableName": "pedal_right",
+        "value": "{{value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_14",
+      "type": "set-variable",
+      "dimensions": {
+        "width": 251,
+        "height": 168
+      },
+      "computedPosition": {
+        "x": 818.1728587319228,
+        "y": 1485.988542136443,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_14",
+            "position": "right",
+            "x": 248,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_14",
+            "position": "left",
+            "x": -3,
+            "y": 81,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 818.1728587319228,
+        "y": 1485.988542136443
+      },
+      "data": {
+        "variableName": "pedal_left",
+        "value": "{{value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_15",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 1093.7728972688374,
+        "y": 1476.181925761491,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_15",
+            "position": "right",
+            "x": 450,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_15",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1093.7728972688374,
+        "y": 1476.181925761491
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{pedal_left - pedal_right}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_16",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 1552.3982835562874,
+        "y": 1482.9674511402377,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_16",
+            "position": "right",
+            "x": 449.999755859375,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_16",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1552.3982835562874,
+        "y": 1482.9674511402377
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{floor(value * 16383)}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_17",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 1082.6293846721085,
+        "y": 1255.230195755845,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_17",
+            "position": "right",
+            "x": 450,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_17",
+            "position": "left",
+            "x": -3,
+            "y": 77,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1082.6293846721085,
+        "y": 1255.230195755845
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{floor(((value * 2) - 1) * 16383)}}"
+          }
+        ]
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_node_1_default_node_4_default",
+      "type": "default",
+      "source": "node_1",
+      "target": "node_4",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_1",
+        "type": "serial-input",
+        "dimensions": {
+          "width": 251,
+          "height": 81
+        },
+        "computedPosition": {
+          "x": -197.83662697100408,
+          "y": 1144.7688683015665,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1",
+              "position": "right",
+              "x": 248,
+              "y": 37.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -197.83662697100408,
+          "y": 1144.7688683015665
+        },
+        "data": {
+          "pattern": "A0"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_4",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 95.28474455066313,
+          "y": 1077.1395140178322,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_4",
+              "position": "right",
+              "x": 449.99993896484375,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_4",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 95.28474455066313,
+          "y": 1077.1395140178322
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 56.16337302899592,
+      "sourceY": 1185.2688683015665,
+      "targetX": 92.28474455066313,
+      "targetY": 1157.1395140178322
+    },
+    {
+      "id": "edge_node_2_default_node_5_default",
+      "type": "default",
+      "source": "node_2",
+      "target": "node_5",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_2",
+        "type": "serial-input",
+        "dimensions": {
+          "width": 251,
+          "height": 81
+        },
+        "computedPosition": {
+          "x": -244.22399607297712,
+          "y": 1333.9582972121395,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 248,
+              "y": 37.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -244.22399607297712,
+          "y": 1333.9582972121395
+        },
+        "data": {
+          "pattern": "A1"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_5",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 83.26384265741399,
+          "y": 1269.7197773474038,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_5",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_5",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 83.26384265741399,
+          "y": 1269.7197773474038
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 9.776003927022884,
+      "sourceY": 1374.4582972121395,
+      "targetX": 80.26384265741399,
+      "targetY": 1349.7197773474038
+    },
+    {
+      "id": "edge_node_3_default_node_6_default",
+      "type": "default",
+      "source": "node_3",
+      "target": "node_6",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_3",
+        "type": "serial-input",
+        "dimensions": {
+          "width": 251,
+          "height": 81
+        },
+        "computedPosition": {
+          "x": -269.04960764924533,
+          "y": 1527.6999347788485,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_3",
+              "position": "right",
+              "x": 248,
+              "y": 37.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -269.04960764924533,
+          "y": 1527.6999347788485
+        },
+        "data": {
+          "pattern": "A2"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_6",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 64.23082307145174,
+          "y": 1466.799850578951,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_6",
+              "position": "right",
+              "x": 450.00006103515625,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_6",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 64.23082307145174,
+          "y": 1466.799850578951
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": -15.049607649245331,
+      "sourceY": 1568.1999347788485,
+      "targetX": 61.23082307145174,
+      "targetY": 1546.799850578951
+    },
+    {
+      "id": "edge_node_4_default_node_7_default",
+      "type": "default",
+      "source": "node_4",
+      "target": "node_7",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_4",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 95.28474455066313,
+          "y": 1077.1395140178322,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_4",
+              "position": "right",
+              "x": 449.99993896484375,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_4",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 95.28474455066313,
+          "y": 1077.1395140178322
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_7",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 551.9985775452121,
+          "y": 933.9615290264469,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_7",
+              "position": "right",
+              "x": 202,
+              "y": 175.49993896484375,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_7",
+              "position": "left",
+              "x": -3,
+              "y": 175.49993896484375,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 551.9985775452121,
+          "y": 933.9615290264469
+        },
+        "data": {
+          "calibrationName": "node_55",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 2220,
+          "max": 22423
+        },
+        "events": {}
+      },
+      "sourceX": 551.2846835155069,
+      "sourceY": 1157.1395140178322,
+      "targetX": 548.9985775452121,
+      "targetY": 1112.4614679912906
+    },
+    {
+      "id": "edge_node_5_default_node_8_default",
+      "type": "default",
+      "source": "node_5",
+      "target": "node_8",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_5",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 83.26384265741399,
+          "y": 1269.7197773474038,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_5",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_5",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 83.26384265741399,
+          "y": 1269.7197773474038
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_8",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 551.8552158430903,
+          "y": 1296.122237937545,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_8",
+              "position": "right",
+              "x": 202,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_8",
+              "position": "left",
+              "x": -3,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 551.8552158430903,
+          "y": 1296.122237937545
+        },
+        "data": {
+          "calibrationName": "node_56",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 15554,
+          "max": 22739
+        },
+        "events": {}
+      },
+      "sourceX": 539.263842657414,
+      "sourceY": 1349.7197773474038,
+      "targetX": 548.8552158430903,
+      "targetY": 1474.622237937545
+    },
+    {
+      "id": "edge_node_6_default_node_9_default",
+      "type": "default",
+      "source": "node_6",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_6",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 64.23082307145174,
+          "y": 1466.799850578951,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_6",
+              "position": "right",
+              "x": 450.00006103515625,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_6",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 64.23082307145174,
+          "y": 1466.799850578951
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{substring(value, 4)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 552.6985315837345,
+          "y": 1657.7842148962318,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 202,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 552.6985315837345,
+          "y": 1657.7842148962318
+        },
+        "data": {
+          "calibrationName": "node_57",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 3319,
+          "max": 23059
+        },
+        "events": {}
+      },
+      "sourceX": 520.230884106608,
+      "sourceY": 1546.799850578951,
+      "targetX": 549.6985315837345,
+      "targetY": 1836.2842148962318
+    },
+    {
+      "id": "edge_node_9_default_node_14_default",
+      "type": "default",
+      "source": "node_9",
+      "target": "node_14",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_9",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 552.6985315837345,
+          "y": 1657.7842148962318,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 202,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 552.6985315837345,
+          "y": 1657.7842148962318
+        },
+        "data": {
+          "calibrationName": "node_57",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 3319,
+          "max": 23059
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_14",
+        "type": "set-variable",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 818.1728587319228,
+          "y": 1485.988542136443,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 248,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_14",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 818.1728587319228,
+          "y": 1485.988542136443
+        },
+        "data": {
+          "variableName": "pedal_left",
+          "value": "{{value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 760.6985315837345,
+      "sourceY": 1836.2842148962318,
+      "targetX": 815.1728587319228,
+      "targetY": 1569.988542136443
+    },
+    {
+      "id": "edge_node_7_default_node_13_default",
+      "type": "default",
+      "source": "node_7",
+      "target": "node_13",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_7",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 551.9985775452121,
+          "y": 933.9615290264469,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_7",
+              "position": "right",
+              "x": 202,
+              "y": 175.49993896484375,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_7",
+              "position": "left",
+              "x": -3,
+              "y": 175.49993896484375,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 551.9985775452121,
+          "y": 933.9615290264469
+        },
+        "data": {
+          "calibrationName": "node_55",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 2220,
+          "max": 22423
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_13",
+        "type": "set-variable",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 821.3546531973061,
+          "y": 1115.4024604461347,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_13",
+              "position": "right",
+              "x": 248.0001220703125,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_13",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 821.3546531973061,
+          "y": 1115.4024604461347
+        },
+        "data": {
+          "variableName": "pedal_right",
+          "value": "{{value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 759.9985775452121,
+      "sourceY": 1112.4614679912906,
+      "targetX": 818.3546531973061,
+      "targetY": 1199.4024604461347
+    },
+    {
+      "id": "edge_node_14_default_node_15_default",
+      "type": "default",
+      "source": "node_14",
+      "target": "node_15",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_14",
+        "type": "set-variable",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 818.1728587319228,
+          "y": 1485.988542136443,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 248,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_14",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 818.1728587319228,
+          "y": 1485.988542136443
+        },
+        "data": {
+          "variableName": "pedal_left",
+          "value": "{{value}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_15",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_15",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_15",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{pedal_left - pedal_right}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 1072.1728587319228,
+      "sourceY": 1569.988542136443,
+      "targetX": 1090.7728972688374,
+      "targetY": 1556.181925761491
+    },
+    {
+      "id": "edge_node_13_default_node_15_default",
+      "type": "default",
+      "source": "node_13",
+      "target": "node_15",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_13",
+        "type": "set-variable",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 821.3546531973061,
+          "y": 1115.4024604461347,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_13",
+              "position": "right",
+              "x": 248.0001220703125,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_13",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 821.3546531973061,
+          "y": 1115.4024604461347
+        },
+        "data": {
+          "variableName": "pedal_right",
+          "value": "{{value}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_15",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_15",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_15",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{pedal_left - pedal_right}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 1075.3547752676186,
+      "sourceY": 1199.4024604461347,
+      "targetX": 1090.7728972688374,
+      "targetY": 1556.181925761491,
+      "selected": false
+    },
+    {
+      "id": "edge_node_15_default_node_16_default",
+      "type": "default",
+      "source": "node_15",
+      "target": "node_16",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_15",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_15",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_15",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1093.7728972688374,
+          "y": 1476.181925761491
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{pedal_left - pedal_right}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_16",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1552.3982835562874,
+          "y": 1482.9674511402377,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 449.999755859375,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1552.3982835562874,
+          "y": 1482.9674511402377
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{floor(value * 16383)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 1549.7728972688374,
+      "sourceY": 1556.181925761491,
+      "targetX": 1549.3982835562874,
+      "targetY": 1562.9674511402377,
+      "selected": false
+    },
+    {
+      "id": "edge_node_16_default_node_11_default",
+      "type": "default",
+      "source": "node_16",
+      "target": "node_11",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_16",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1552.3982835562874,
+          "y": 1482.9674511402377,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 449.999755859375,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1552.3982835562874,
+          "y": 1482.9674511402377
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{floor(value * 16383)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_11",
+        "type": "simconnect-event",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 2011.6639282923522,
+          "y": 1477.8152869748658,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_11",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 2011.6639282923522,
+          "y": 1477.8152869748658
+        },
+        "data": {
+          "eventName": "AXIS_RUDDER_SET",
+          "eventValue": "{{value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 2008.3980394156624,
+      "sourceY": 1562.9674511402377,
+      "targetX": 2008.6639282923522,
+      "targetY": 1561.8152869748658
+    },
+    {
+      "id": "edge_node_8_default_node_17_default",
+      "type": "default",
+      "source": "node_8",
+      "target": "node_17",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_8",
+        "type": "analog-calibrate",
+        "dimensions": {
+          "width": 205,
+          "height": 357
+        },
+        "computedPosition": {
+          "x": 551.8552158430903,
+          "y": 1296.122237937545,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_8",
+              "position": "right",
+              "x": 202,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_8",
+              "position": "left",
+              "x": -3,
+              "y": 175.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 551.8552158430903,
+          "y": 1296.122237937545
+        },
+        "data": {
+          "calibrationName": "node_56",
+          "invert": true,
+          "deadzone": 0.05,
+          "sensitivity": 1,
+          "min": 15554,
+          "max": 22739
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{floor(((value * 2) - 1) * 16383)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 759.8552158430903,
+      "sourceY": 1474.622237937545,
+      "targetX": 1079.6293846721085,
+      "targetY": 1335.230195755845,
+      "selected": false
+    },
+    {
+      "id": "edge_node_17_default_node_12_default",
+      "type": "default",
+      "source": "node_17",
+      "target": "node_12",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{floor(((value * 2) - 1) * 16383)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_12",
+        "type": "simconnect-event",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 1675.4953918674757,
+          "y": 1239.8832144901305,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_12",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1675.4953918674757,
+          "y": 1239.8832144901305
+        },
+        "data": {
+          "eventName": "AXIS_LEFT_BRAKE_SET",
+          "eventValue": "{{value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1538.6293846721085,
+      "sourceY": 1335.230195755845,
+      "targetX": 1672.4953918674757,
+      "targetY": 1323.8832144901305
+    },
+    {
+      "id": "edge_node_17_default_node_10_default",
+      "type": "default",
+      "source": "node_17",
+      "target": "node_10",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -3,
+              "y": 77,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1082.6293846721085,
+          "y": 1255.230195755845
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{floor(((value * 2) - 1) * 16383)}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_10",
+        "type": "simconnect-event",
+        "dimensions": {
+          "width": 251,
+          "height": 168
+        },
+        "computedPosition": {
+          "x": 1645.3563743539185,
+          "y": 1051.2320935567388,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -3,
+              "y": 81,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1645.3563743539185,
+          "y": 1051.2320935567388
+        },
+        "data": {
+          "eventName": "AXIS_RIGHT_BRAKE_SET",
+          "eventValue": "{{value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1538.6293846721085,
+      "sourceY": 1335.230195755845,
+      "targetX": 1642.3563743539185,
+      "targetY": 1135.2320935567388
+    }
+  ],
+  "settings": {
+    "activation": {
+      "aircraftName": ""
+    }
+  }
+}
