@@ -1,0 +1,6966 @@
+{
+  "id": "flow_1772658447716",
+  "name": "Fenix A320 Checklist",
+  "nodes": [
+    {
+      "id": "node_2",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 427.4295897311985,
+        "y": -297.96631200417903,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_2",
+            "position": "right",
+            "x": 247.9998779296875,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_2",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 427.4295897311985,
+        "y": -297.96631200417903
+      },
+      "data": {
+        "text": "External Power .... If Avail",
+        "checked": "{{simvar:L:I_OH_ELEC_EXT_PWR_L}}",
+        "manualCheckEnabled": false,
+        "inputText": ""
+      },
+      "events": {}
+    },
+    {
+      "id": "node_8",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 130.7908128630879,
+        "y": 127.1982685705837,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_8",
+            "position": "right",
+            "x": 248.00006103515625,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_8",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 130.7908128630879,
+        "y": 127.1982685705837
+      },
+      "data": {
+        "text": "ADIRS 1 .... NAV",
+        "checked": "{{simvar:L:S_OH_NAV_IR1_MODE}}",
+        "inputText": "",
+        "manualCheckEnabled": false
+      },
+      "events": {}
+    },
+    {
+      "id": "node_9",
+      "type": "checklist",
+      "dimensions": {
+        "width": 251,
+        "height": 524
+      },
+      "computedPosition": {
+        "x": 788.3757582781807,
+        "y": 118.04500338250577,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": "default",
+            "type": "source",
+            "nodeId": "node_9",
+            "position": "right",
+            "x": 248,
+            "y": 154.1875,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "changes",
+            "type": "source",
+            "nodeId": "node_9",
+            "position": "right",
+            "x": 248,
+            "y": 363.796875,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": "input-0",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 42,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-1",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 67,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-2",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 92,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-3",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 117,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-4",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 142,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-5",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 167,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-6",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 192,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-7",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 217,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-8",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 242,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-9",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 267,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-10",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 292,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-11",
+            "type": "target",
+            "nodeId": "node_9",
+            "position": "left",
+            "x": -3,
+            "y": 317,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 788.3757582781807,
+        "y": 118.04500338250577
+      },
+      "data": {
+        "name": "Startup",
+        "expandDots": true,
+        "expandDotsLengthExpression": "40"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_10",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 192.6024284091202,
+        "y": 502.41174684641635,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_10",
+            "position": "right",
+            "x": 247.99993896484375,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 192.6024284091202,
+        "y": 502.41174684641635
+      },
+      "data": {
+        "text": "Start Refueling / Boarding",
+        "checked": "false",
+        "inputText": ""
+      },
+      "events": {}
+    },
+    {
+      "id": "node_12",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 194.91901045564413,
+        "y": 729.4629489312706,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_12",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "text-change",
+            "type": "source",
+            "nodeId": "node_12",
+            "position": "right",
+            "x": 248,
+            "y": 174.59375,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_12",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 194.91901045564413,
+        "y": 729.4629489312706
+      },
+      "data": {
+        "text": "ATIS",
+        "input": true,
+        "inputText": "1234567",
+        "checked": "false"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_13",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -155.9515888033156,
+        "y": 329.03918372236205,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_13",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -155.9515888033156,
+        "y": 329.03918372236205
+      },
+      "data": {
+        "simvarName": "L:S_OH_NAV_IR1_MODE"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_14",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -143.98216553505722,
+        "y": 495.1189856773533,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_14",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -143.98216553505722,
+        "y": 495.1189856773533
+      },
+      "data": {
+        "simvarName": "L:S_OH_NAV_IR3_MODE"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_15",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -153.64586627142177,
+        "y": 410.25903544560236,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_15",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -153.64586627142177,
+        "y": 410.25903544560236
+      },
+      "data": {
+        "simvarName": "L:S_OH_NAV_IR2_MODE"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_19",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 126.59312276230662,
+        "y": 198.4852918486922,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_19",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_19",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 126.59312276230662,
+        "y": 198.4852918486922
+      },
+      "data": {
+        "text": "ADIRS 2 .... NAV",
+        "checked": "{{simvar:L:S_OH_NAV_IR2_MODE}}",
+        "inputText": "",
+        "manualCheckEnabled": false
+      },
+      "events": {}
+    },
+    {
+      "id": "node_20",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 127.09274661650656,
+        "y": 266.4803950468825,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_20",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_20",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 127.09274661650656,
+        "y": 266.4803950468825
+      },
+      "data": {
+        "text": "ADIRS 3 .... NAV",
+        "checked": "{{simvar:L:S_OH_NAV_IR3_MODE}}",
+        "inputText": "",
+        "manualCheckEnabled": false,
+        "input": false
+      },
+      "events": {}
+    },
+    {
+      "id": "node_24",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1459.45239083759,
+        "y": 626.7391902061481,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_24",
+            "position": "left",
+            "x": -3,
+            "y": 65,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1459.45239083759,
+        "y": 626.7391902061481
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft println {{value.value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_25",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1126.119196594246,
+        "y": 100.09630256718447,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_25",
+            "position": "left",
+            "x": -3,
+            "y": 65,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1126.119196594246,
+        "y": 100.09630256718447
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft fontsize 2"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_29",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1459.5881922919598,
+        "y": 478.26368361949625,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_29",
+            "position": "left",
+            "x": -3,
+            "y": 65,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1459.5881922919598,
+        "y": 478.26368361949625
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft cursor 0 {{value.index * 20}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_31",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 434.5728209549309,
+        "y": -46.15099924917561,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_31",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_31",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 434.5728209549309,
+        "y": -46.15099924917561
+      },
+      "data": {
+        "text": "Battery 1 and 2",
+        "manualCheckEnabled": false,
+        "checked": "{{!simvar:L:I_OH_ELEC_BAT1_L && !simvar:L:I_OH_ELEC_BAT2_L}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_32",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -144.93521352043967,
+        "y": 18.481416572439436,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_32",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -144.93521352043967,
+        "y": 18.481416572439436
+      },
+      "data": {
+        "simvarName": "L:I_OH_ELEC_BAT1_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_34",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -145.17791731350016,
+        "y": 154.67610444256445,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_34",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -145.17791731350016,
+        "y": 154.67610444256445
+      },
+      "data": {
+        "simvarName": "L:I_OH_ELEC_BAT2_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_36",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -158.90961205634653,
+        "y": -138.85915794106256,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_36",
+            "position": "right",
+            "x": 198.00003051757812,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -158.90961205634653,
+        "y": -138.85915794106256
+      },
+      "data": {
+        "simvarName": "L:I_OH_ELEC_EXT_PWR_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_39",
+      "type": "foreach",
+      "dimensions": {
+        "width": 266,
+        "height": 135
+      },
+      "computedPosition": {
+        "x": 1116.9402572054673,
+        "y": 452.66618403993476,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_39",
+            "position": "right",
+            "x": 262.71875,
+            "y": 64.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_39",
+            "position": "left",
+            "x": -3,
+            "y": 64.5,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1116.9402572054673,
+        "y": 452.66618403993476
+      },
+      "data": {
+        "arrayExpression": "{{split(value, \"\\n\")}}",
+        "outputWithIndex": true
+      },
+      "events": {}
+    },
+    {
+      "id": "node_40",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -166.38713104830467,
+        "y": 1047.7244290308247,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_40",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -166.38713104830467,
+        "y": 1047.7244290308247
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_CENTER_1_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_41",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 223.58906696027248,
+        "y": 1094.453042867433,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_41",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_41",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 223.58906696027248,
+        "y": 1094.453042867433
+      },
+      "data": {
+        "text": "Fuel Pumps .... ON",
+        "manualCheckEnabled": false,
+        "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_43",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -178.59946683618665,
+        "y": 1135.3703341853768,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_43",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -178.59946683618665,
+        "y": 1135.3703341853768
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_CENTER_2_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_44",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -174.70563473012766,
+        "y": 1220.8687502874036,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_44",
+            "position": "right",
+            "x": 198.00003051757812,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -174.70563473012766,
+        "y": 1220.8687502874036
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_LEFT_1_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_45",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -166.11567852002577,
+        "y": 1384.0779182793387,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_45",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -166.11567852002577,
+        "y": 1384.0779182793387
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_RIGHT_1_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_46",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -165.04193399376308,
+        "y": 1305.6945678621591,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_46",
+            "position": "right",
+            "x": 198.00003051757812,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -165.04193399376308,
+        "y": 1305.6945678621591
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_LEFT_2_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_47",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": -161.82070041497488,
+        "y": 1461.3875241702556,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_47",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -161.82070041497488,
+        "y": 1461.3875241702556
+      },
+      "data": {
+        "simvarName": "L:I_OH_FUEL_RIGHT_2_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_49",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 223.50551111202975,
+        "y": 1467.3635789224113,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_49",
+            "position": "right",
+            "x": 197.99993896484375,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 223.50551111202975,
+        "y": 1467.3635789224113
+      },
+      "data": {
+        "simvarName": "L:I_OH_OXYGEN_CREW_OXYGEN_L"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_50",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 509.8777094734302,
+        "y": 1296.9896123320975,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_50",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_50",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 509.8777094734302,
+        "y": 1296.9896123320975
+      },
+      "data": {
+        "text": "OXYG Crew Supply .... ON",
+        "manualCheckEnabled": false,
+        "checked": "{{!simvar:L:I_OH_OXYGEN_CREW_OXYGEN_L}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_51",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 227.04818030820067,
+        "y": 1627.867893621057,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_51",
+            "position": "right",
+            "x": 198,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 227.04818030820067,
+        "y": 1627.867893621057
+      },
+      "data": {
+        "simvarName": "L:S_OH_INT_LT_EMER"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_52",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 498.7077927492693,
+        "y": 1552.1808021598572,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_52",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_52",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 498.7077927492693,
+        "y": 1552.1808021598572
+      },
+      "data": {
+        "text": "EMERG Exit LT .... ARM",
+        "manualCheckEnabled": false,
+        "checked": "{{simvar:L:S_OH_INT_LT_EMER}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_53",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 227.21277875646192,
+        "y": 1820.7192500004946,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_53",
+            "position": "right",
+            "x": 197.99993896484375,
+            "y": 34.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 227.21277875646192,
+        "y": 1820.7192500004946
+      },
+      "data": {
+        "simvarName": "L:S_OH_SIGNS_SMOKING"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_54",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 496.03876240442503,
+        "y": 1786.1197760393252,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_54",
+            "position": "right",
+            "x": 248,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_54",
+            "position": "left",
+            "x": -3,
+            "y": 108,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 496.03876240442503,
+        "y": 1786.1197760393252
+      },
+      "data": {
+        "text": "No Smoking LT .... AUTO",
+        "manualCheckEnabled": false,
+        "checked": "{{simvar:L:S_OH_SIGNS_SMOKING}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_55",
+      "type": "program-start",
+      "dimensions": {
+        "width": 217,
+        "height": 73
+      },
+      "computedPosition": {
+        "x": 843.6127654923666,
+        "y": -111.94135160769957,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_55",
+            "position": "right",
+            "x": 213.515625,
+            "y": 33.5,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 843.6127654923666,
+        "y": -111.94135160769957
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_56",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1107.4951180834125,
+        "y": -144.14996781471154,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_56",
+            "position": "left",
+            "x": -3,
+            "y": 65,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1107.4951180834125,
+        "y": -144.14996781471154
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft clear"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_57",
+      "type": "delay",
+      "dimensions": {
+        "width": 339,
+        "height": 130
+      },
+      "computedPosition": {
+        "x": 1147.160454662558,
+        "y": -298.09509201802723,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_57",
+            "position": "right",
+            "x": 336,
+            "y": 62,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_57",
+            "position": "left",
+            "x": -3,
+            "y": 62,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1147.160454662558,
+        "y": -298.09509201802723
+      },
+      "data": {
+        "delay": "1",
+        "unit": "seconds"
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_node_2_default_node_9_input-0",
+      "type": "default",
+      "source": "node_2",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-0",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_2",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 427.4295897311985,
+          "y": -297.96631200417903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 247.9998779296875,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_2",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 427.4295897311985,
+          "y": -297.96631200417903
+        },
+        "data": {
+          "text": "External Power .... If Avail",
+          "checked": "{{simvar:L:I_OH_ELEC_EXT_PWR_L}}",
+          "manualCheckEnabled": false,
+          "inputText": ""
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 681.4294676608861,
+      "sourceY": -186.96631200417903,
+      "targetX": 785.3757582781807,
+      "targetY": 163.04500338250577
+    },
+    {
+      "id": "edge_node_8_default_node_9_input-2",
+      "type": "default",
+      "source": "node_8",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-2",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_8",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 130.7908128630879,
+          "y": 127.1982685705837,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_8",
+              "position": "right",
+              "x": 248.00006103515625,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_8",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 130.7908128630879,
+          "y": 127.1982685705837
+        },
+        "data": {
+          "text": "ADIRS 1 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR1_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 384.7908738982442,
+      "sourceY": 238.1982685705837,
+      "targetX": 785.3757582781807,
+      "targetY": 213.04500338250577
+    },
+    {
+      "id": "edge_node_13_default_node_8_default",
+      "type": "default",
+      "source": "node_13",
+      "target": "node_8",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_13",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -155.9515888033156,
+          "y": 329.03918372236205,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_13",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -155.9515888033156,
+          "y": 329.03918372236205
+        },
+        "data": {
+          "simvarName": "L:S_OH_NAV_IR1_MODE"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_8",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 130.7908128630879,
+          "y": 127.1982685705837,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_8",
+              "position": "right",
+              "x": 248.00006103515625,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_8",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 130.7908128630879,
+          "y": 127.1982685705837
+        },
+        "data": {
+          "text": "ADIRS 1 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR1_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false
+        },
+        "events": {}
+      },
+      "sourceX": 48.04841119668441,
+      "sourceY": 366.53918372236205,
+      "targetX": 127.7908128630879,
+      "targetY": 238.1982685705837
+    },
+    {
+      "id": "edge_node_19_default_node_9_input-3",
+      "type": "default",
+      "source": "node_19",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-3",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_19",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 126.59312276230662,
+          "y": 198.4852918486922,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_19",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_19",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 126.59312276230662,
+          "y": 198.4852918486922
+        },
+        "data": {
+          "text": "ADIRS 2 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR2_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 380.5931227623066,
+      "sourceY": 309.4852918486922,
+      "targetX": 785.3757582781807,
+      "targetY": 238.04500338250577,
+      "selected": false
+    },
+    {
+      "id": "edge_node_20_default_node_9_input-4",
+      "type": "default",
+      "source": "node_20",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-4",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_20",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 127.09274661650656,
+          "y": 266.4803950468825,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_20",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_20",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 127.09274661650656,
+          "y": 266.4803950468825
+        },
+        "data": {
+          "text": "ADIRS 3 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR3_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false,
+          "input": false
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 381.0927466165066,
+      "sourceY": 377.4803950468825,
+      "targetX": 785.3757582781807,
+      "targetY": 263.0450033825058
+    },
+    {
+      "id": "edge_node_10_default_node_9_input-5",
+      "type": "default",
+      "source": "node_10",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-9",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_10",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 192.6024284091202,
+          "y": 502.41174684641635,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 247.99993896484375,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 192.6024284091202,
+          "y": 502.41174684641635
+        },
+        "data": {
+          "text": "Start Refueling / Boarding",
+          "checked": "false",
+          "inputText": ""
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 446.60236737396394,
+      "sourceY": 613.4117468464163,
+      "targetX": 785.3757582781807,
+      "targetY": 388.0450033825058
+    },
+    {
+      "id": "edge_node_12_default_node_9_input-6",
+      "type": "default",
+      "source": "node_12",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-10",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_12",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 194.91901045564413,
+          "y": 729.4629489312706,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_12",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "text-change",
+              "type": "source",
+              "nodeId": "node_12",
+              "position": "right",
+              "x": 248,
+              "y": 174.59375,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_12",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 194.91901045564413,
+          "y": 729.4629489312706
+        },
+        "data": {
+          "text": "ATIS",
+          "input": true,
+          "inputText": "1234567",
+          "checked": "false"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 448.9190104556441,
+      "sourceY": 840.4629489312706,
+      "targetX": 785.3757582781807,
+      "targetY": 413.0450033825058
+    },
+    {
+      "id": "edge_node_9_default_node_25_default",
+      "type": "default",
+      "source": "node_9",
+      "target": "node_25",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_25",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1126.119196594246,
+          "y": 100.09630256718447,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_25",
+              "position": "left",
+              "x": -3,
+              "y": 65,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1126.119196594246,
+          "y": 100.09630256718447
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft fontsize 2"
+        },
+        "events": {}
+      },
+      "sourceX": 1042.3757582781807,
+      "sourceY": 275.2325033825058,
+      "targetX": 1123.119196594246,
+      "targetY": 168.09630256718447
+    },
+    {
+      "id": "edge_node_32_default_node_31_default",
+      "type": "default",
+      "source": "node_32",
+      "target": "node_31",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_32",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -144.93521352043967,
+          "y": 18.481416572439436,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_32",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -144.93521352043967,
+          "y": 18.481416572439436
+        },
+        "data": {
+          "simvarName": "L:I_OH_ELEC_BAT1_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_31",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_31",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_31",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561
+        },
+        "data": {
+          "text": "Battery 1 and 2",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_ELEC_BAT1_L && !simvar:L:I_OH_ELEC_BAT2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 59.064786479560325,
+      "sourceY": 55.981416572439436,
+      "targetX": 431.5728209549309,
+      "targetY": 64.84900075082439
+    },
+    {
+      "id": "edge_node_31_default_node_9_input-7",
+      "type": "default",
+      "source": "node_31",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-1",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_31",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_31",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_31",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561
+        },
+        "data": {
+          "text": "Battery 1 and 2",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_ELEC_BAT1_L && !simvar:L:I_OH_ELEC_BAT2_L}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 688.5728209549309,
+      "sourceY": 64.84900075082439,
+      "targetX": 785.3757582781807,
+      "targetY": 188.04500338250577
+    },
+    {
+      "id": "edge_node_36_default_node_2_default",
+      "type": "default",
+      "source": "node_36",
+      "target": "node_2",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_36",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -158.90961205634653,
+          "y": -138.85915794106256,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_36",
+              "position": "right",
+              "x": 198.00003051757812,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -158.90961205634653,
+          "y": -138.85915794106256
+        },
+        "data": {
+          "simvarName": "L:I_OH_ELEC_EXT_PWR_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_2",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 427.4295897311985,
+          "y": -297.96631200417903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 247.9998779296875,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_2",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 427.4295897311985,
+          "y": -297.96631200417903
+        },
+        "data": {
+          "text": "External Power .... If Avail",
+          "checked": "{{simvar:L:I_OH_ELEC_EXT_PWR_L}}",
+          "manualCheckEnabled": false,
+          "inputText": ""
+        },
+        "events": {}
+      },
+      "sourceX": 45.09041846123159,
+      "sourceY": -101.35915794106256,
+      "targetX": 424.4295897311985,
+      "targetY": -186.96631200417903
+    },
+    {
+      "id": "edge_node_34_default_node_31_default",
+      "type": "default",
+      "source": "node_34",
+      "target": "node_31",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_34",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -145.17791731350016,
+          "y": 154.67610444256445,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_34",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -145.17791731350016,
+          "y": 154.67610444256445
+        },
+        "data": {
+          "simvarName": "L:I_OH_ELEC_BAT2_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_31",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_31",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_31",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 434.5728209549309,
+          "y": -46.15099924917561
+        },
+        "data": {
+          "text": "Battery 1 and 2",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_ELEC_BAT1_L && !simvar:L:I_OH_ELEC_BAT2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 58.82208268649984,
+      "sourceY": 192.17610444256445,
+      "targetX": 431.5728209549309,
+      "targetY": 64.84900075082439
+    },
+    {
+      "id": "edge_node_39_default_node_29_default",
+      "type": "default",
+      "source": "node_39",
+      "target": "node_29",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_39",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_39",
+              "position": "right",
+              "x": 262.71875,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_39",
+              "position": "left",
+              "x": -3,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_29",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1459.5881922919598,
+          "y": 478.26368361949625,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_29",
+              "position": "left",
+              "x": -3,
+              "y": 65,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1459.5881922919598,
+          "y": 478.26368361949625
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft cursor 0 {{value.index * 20}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1385.6590072054673,
+      "sourceY": 520.1661840399347,
+      "targetX": 1456.5881922919598,
+      "targetY": 546.2636836194963
+    },
+    {
+      "id": "edge_node_39_default_node_24_default",
+      "type": "default",
+      "source": "node_39",
+      "target": "node_24",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_39",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_39",
+              "position": "right",
+              "x": 262.71875,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_39",
+              "position": "left",
+              "x": -3,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_24",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1459.45239083759,
+          "y": 626.7391902061481,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_24",
+              "position": "left",
+              "x": -3,
+              "y": 65,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1459.45239083759,
+          "y": 626.7391902061481
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft println {{value.value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1385.6590072054673,
+      "sourceY": 520.1661840399347,
+      "targetX": 1456.45239083759,
+      "targetY": 694.7391902061481
+    },
+    {
+      "id": "edge_node_9_default_node_39_default",
+      "type": "default",
+      "source": "node_9",
+      "target": "node_39",
+      "sourceHandle": "default",
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_39",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_39",
+              "position": "right",
+              "x": 262.71875,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_39",
+              "position": "left",
+              "x": -3,
+              "y": 64.5,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1116.9402572054673,
+          "y": 452.66618403993476
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "sourceX": 1042.3757582781807,
+      "sourceY": 275.2325033825058,
+      "targetX": 1113.9402572054673,
+      "targetY": 520.1661840399347
+    },
+    {
+      "id": "edge_node_40_default_node_41_default",
+      "type": "default",
+      "source": "node_40",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_40",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -166.38713104830467,
+          "y": 1047.7244290308247,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_40",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -166.38713104830467,
+          "y": 1047.7244290308247
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_CENTER_1_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 37.61286895169533,
+      "sourceY": 1085.2244290308247,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_41_default_node_9_input-7",
+      "type": "default",
+      "source": "node_41",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-5",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 477.5890669602725,
+      "sourceY": 1205.453042867433,
+      "targetX": 785.3757582781807,
+      "targetY": 288.0450033825058
+    },
+    {
+      "id": "edge_node_43_default_node_41_default",
+      "type": "default",
+      "source": "node_43",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_43",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -178.59946683618665,
+          "y": 1135.3703341853768,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_43",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -178.59946683618665,
+          "y": 1135.3703341853768
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_CENTER_2_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 25.40053316381335,
+      "sourceY": 1172.8703341853768,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_44_default_node_41_default",
+      "type": "default",
+      "source": "node_44",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_44",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -174.70563473012766,
+          "y": 1220.8687502874036,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_44",
+              "position": "right",
+              "x": 198.00003051757812,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -174.70563473012766,
+          "y": 1220.8687502874036
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_LEFT_1_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 29.29439578745047,
+      "sourceY": 1258.3687502874036,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_46_default_node_41_default",
+      "type": "default",
+      "source": "node_46",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_46",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -165.04193399376308,
+          "y": 1305.6945678621591,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_46",
+              "position": "right",
+              "x": 198.00003051757812,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -165.04193399376308,
+          "y": 1305.6945678621591
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_LEFT_2_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 38.958096523815044,
+      "sourceY": 1343.1945678621591,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_45_default_node_41_default",
+      "type": "default",
+      "source": "node_45",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_45",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -166.11567852002577,
+          "y": 1384.0779182793387,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_45",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -166.11567852002577,
+          "y": 1384.0779182793387
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_RIGHT_1_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 37.88432147997423,
+      "sourceY": 1421.5779182793387,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_47_default_node_41_default",
+      "type": "default",
+      "source": "node_47",
+      "target": "node_41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_47",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -161.82070041497488,
+          "y": 1461.3875241702556,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_47",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -161.82070041497488,
+          "y": 1461.3875241702556
+        },
+        "data": {
+          "simvarName": "L:I_OH_FUEL_RIGHT_2_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_41",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_41",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_41",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.58906696027248,
+          "y": 1094.453042867433
+        },
+        "data": {
+          "text": "Fuel Pumps .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_FUEL_CENTER_1_L && !simvar:L:I_OH_FUEL_CENTER_2_L && !simvar:L:I_OH_FUEL_LEFT_1_L && !simvar:L:I_OH_FUEL_LEFT_2_L && !simvar:L:I_OH_FUEL_RIGHT_1_L && !simvar:L:I_OH_FUEL_RIGHT_2_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 42.17929958502512,
+      "sourceY": 1498.8875241702556,
+      "targetX": 220.58906696027248,
+      "targetY": 1205.453042867433
+    },
+    {
+      "id": "edge_node_49_default_node_50_default",
+      "type": "default",
+      "source": "node_49",
+      "target": "node_50",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_49",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 223.50551111202975,
+          "y": 1467.3635789224113,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_49",
+              "position": "right",
+              "x": 197.99993896484375,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 223.50551111202975,
+          "y": 1467.3635789224113
+        },
+        "data": {
+          "simvarName": "L:I_OH_OXYGEN_CREW_OXYGEN_L"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_50",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 509.8777094734302,
+          "y": 1296.9896123320975,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_50",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_50",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 509.8777094734302,
+          "y": 1296.9896123320975
+        },
+        "data": {
+          "text": "OXYG Crew Supply .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_OXYGEN_CREW_OXYGEN_L}}"
+        },
+        "events": {}
+      },
+      "sourceX": 427.5054500768735,
+      "sourceY": 1504.8635789224113,
+      "targetX": 506.8777094734302,
+      "targetY": 1407.9896123320975
+    },
+    {
+      "id": "edge_node_50_default_node_9_input-8",
+      "type": "default",
+      "source": "node_50",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-6",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_50",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 509.8777094734302,
+          "y": 1296.9896123320975,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_50",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_50",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 509.8777094734302,
+          "y": 1296.9896123320975
+        },
+        "data": {
+          "text": "OXYG Crew Supply .... ON",
+          "manualCheckEnabled": false,
+          "checked": "{{!simvar:L:I_OH_OXYGEN_CREW_OXYGEN_L}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 763.8777094734302,
+      "sourceY": 1407.9896123320975,
+      "targetX": 785.3757582781807,
+      "targetY": 313.0450033825058
+    },
+    {
+      "id": "edge_node_51_default_node_52_default",
+      "type": "default",
+      "source": "node_51",
+      "target": "node_52",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_51",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 227.04818030820067,
+          "y": 1627.867893621057,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_51",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 227.04818030820067,
+          "y": 1627.867893621057
+        },
+        "data": {
+          "simvarName": "L:S_OH_INT_LT_EMER"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_52",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 498.7077927492693,
+          "y": 1552.1808021598572,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_52",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_52",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 498.7077927492693,
+          "y": 1552.1808021598572
+        },
+        "data": {
+          "text": "EMERG Exit LT .... ARM",
+          "manualCheckEnabled": false,
+          "checked": "{{simvar:L:S_OH_INT_LT_EMER}}"
+        },
+        "events": {}
+      },
+      "sourceX": 431.0481803082007,
+      "sourceY": 1665.367893621057,
+      "targetX": 495.7077927492693,
+      "targetY": 1663.1808021598572
+    },
+    {
+      "id": "edge_node_53_default_node_54_default",
+      "type": "default",
+      "source": "node_53",
+      "target": "node_54",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_53",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 227.21277875646192,
+          "y": 1820.7192500004946,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_53",
+              "position": "right",
+              "x": 197.99993896484375,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 227.21277875646192,
+          "y": 1820.7192500004946
+        },
+        "data": {
+          "simvarName": "L:S_OH_SIGNS_SMOKING"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_54",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 496.03876240442503,
+          "y": 1786.1197760393252,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_54",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_54",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 496.03876240442503,
+          "y": 1786.1197760393252
+        },
+        "data": {
+          "text": "No Smoking LT .... AUTO",
+          "manualCheckEnabled": false,
+          "checked": "{{simvar:L:S_OH_SIGNS_SMOKING}}"
+        },
+        "events": {}
+      },
+      "sourceX": 431.2127177213057,
+      "sourceY": 1858.2192500004946,
+      "targetX": 493.03876240442503,
+      "targetY": 1897.1197760393252
+    },
+    {
+      "id": "edge_node_52_default_node_9_input-9",
+      "type": "default",
+      "source": "node_52",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-7",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_52",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 498.7077927492693,
+          "y": 1552.1808021598572,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_52",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_52",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 498.7077927492693,
+          "y": 1552.1808021598572
+        },
+        "data": {
+          "text": "EMERG Exit LT .... ARM",
+          "manualCheckEnabled": false,
+          "checked": "{{simvar:L:S_OH_INT_LT_EMER}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 752.7077927492693,
+      "sourceY": 1663.1808021598572,
+      "targetX": 785.3757582781807,
+      "targetY": 338.0450033825058
+    },
+    {
+      "id": "edge_node_54_default_node_9_input-10",
+      "type": "default",
+      "source": "node_54",
+      "target": "node_9",
+      "sourceHandle": null,
+      "targetHandle": "input-8",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_54",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 496.03876240442503,
+          "y": 1786.1197760393252,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_54",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_54",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 496.03876240442503,
+          "y": 1786.1197760393252
+        },
+        "data": {
+          "text": "No Smoking LT .... AUTO",
+          "manualCheckEnabled": false,
+          "checked": "{{simvar:L:S_OH_SIGNS_SMOKING}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_9",
+        "type": "checklist",
+        "dimensions": {
+          "width": 251,
+          "height": 524
+        },
+        "computedPosition": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 154.1875,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_9",
+              "position": "right",
+              "x": 248,
+              "y": 363.796875,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 42,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 67,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 92,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 117,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 142,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-5",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 167,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-6",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 192,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-7",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 217,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-8",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 242,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-9",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 267,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-10",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 292,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-11",
+              "type": "target",
+              "nodeId": "node_9",
+              "position": "left",
+              "x": -3,
+              "y": 317,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 788.3757582781807,
+          "y": 118.04500338250577
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 750.038762404425,
+      "sourceY": 1897.1197760393252,
+      "targetX": 785.3757582781807,
+      "targetY": 363.0450033825058
+    },
+    {
+      "id": "edge_node_15_default_node_19_default",
+      "type": "default",
+      "source": "node_15",
+      "target": "node_19",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_15",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -153.64586627142177,
+          "y": 410.25903544560236,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_15",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -153.64586627142177,
+          "y": 410.25903544560236
+        },
+        "data": {
+          "simvarName": "L:S_OH_NAV_IR2_MODE"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_19",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 126.59312276230662,
+          "y": 198.4852918486922,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_19",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_19",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 126.59312276230662,
+          "y": 198.4852918486922
+        },
+        "data": {
+          "text": "ADIRS 2 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR2_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false
+        },
+        "events": {}
+      },
+      "sourceX": 50.35413372857823,
+      "sourceY": 447.75903544560236,
+      "targetX": 123.59312276230662,
+      "targetY": 309.4852918486922
+    },
+    {
+      "id": "edge_node_14_default_node_20_default",
+      "type": "default",
+      "source": "node_14",
+      "target": "node_20",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_14",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": -143.98216553505722,
+          "y": 495.1189856773533,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 198,
+              "y": 34.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -143.98216553505722,
+          "y": 495.1189856773533
+        },
+        "data": {
+          "simvarName": "L:S_OH_NAV_IR3_MODE"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_20",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 127.09274661650656,
+          "y": 266.4803950468825,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_20",
+              "position": "right",
+              "x": 248,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_20",
+              "position": "left",
+              "x": -3,
+              "y": 108,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 127.09274661650656,
+          "y": 266.4803950468825
+        },
+        "data": {
+          "text": "ADIRS 3 .... NAV",
+          "checked": "{{simvar:L:S_OH_NAV_IR3_MODE}}",
+          "inputText": "",
+          "manualCheckEnabled": false,
+          "input": false
+        },
+        "events": {}
+      },
+      "sourceX": 60.01783446494278,
+      "sourceY": 532.6189856773533,
+      "targetX": 124.09274661650656,
+      "targetY": 377.4803950468825
+    },
+    {
+      "id": "edge_node_55_default_node_56_default",
+      "type": "default",
+      "source": "node_55",
+      "target": "node_56",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_55",
+        "type": "program-start",
+        "dimensions": {
+          "width": 217,
+          "height": 73
+        },
+        "computedPosition": {
+          "x": 843.6127654923666,
+          "y": -111.94135160769957,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_55",
+              "position": "right",
+              "x": 213.515625,
+              "y": 33.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 843.6127654923666,
+          "y": -111.94135160769957
+        },
+        "data": {},
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_56",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1107.4951180834125,
+          "y": -144.14996781471154,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_56",
+              "position": "left",
+              "x": -3,
+              "y": 65,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1107.4951180834125,
+          "y": -144.14996781471154
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft clear"
+        },
+        "events": {}
+      },
+      "sourceX": 1063.1283904923666,
+      "sourceY": -75.44135160769957,
+      "targetX": 1104.4951180834125,
+      "targetY": -76.14996781471154
+    },
+    {
+      "id": "edge_node_55_default_node_57_default",
+      "type": "default",
+      "source": "node_55",
+      "target": "node_57",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_55",
+        "type": "program-start",
+        "dimensions": {
+          "width": 217,
+          "height": 73
+        },
+        "computedPosition": {
+          "x": 843.6127654923666,
+          "y": -111.94135160769957,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_55",
+              "position": "right",
+              "x": 213.515625,
+              "y": 33.5,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 843.6127654923666,
+          "y": -111.94135160769957
+        },
+        "data": {},
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_57",
+        "type": "delay",
+        "dimensions": {
+          "width": 339,
+          "height": 130
+        },
+        "computedPosition": {
+          "x": 1147.160454662558,
+          "y": -298.09509201802723,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_57",
+              "position": "right",
+              "x": 336,
+              "y": 62,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_57",
+              "position": "left",
+              "x": -3,
+              "y": 62,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1147.160454662558,
+          "y": -298.09509201802723
+        },
+        "data": {
+          "delay": "1",
+          "unit": "seconds"
+        },
+        "events": {}
+      },
+      "sourceX": 1063.1283904923666,
+      "sourceY": -75.44135160769957,
+      "targetX": 1144.160454662558,
+      "targetY": -233.09509201802723
+    }
+  ],
+  "settings": {
+    "activation": {
+      "aircraftName": "FenixA320"
+    }
+  }
+}

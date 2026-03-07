@@ -1,0 +1,3142 @@
+{
+  "id": "flow_1772917685958",
+  "name": "FBW A380X Startup",
+  "nodes": [
+    {
+      "id": "node_1",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 272.07989714303653,
+        "y": 108.01502472465712,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1",
+            "position": "right",
+            "x": 197.99980945985786,
+            "y": 34.50005663623484,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 272.07989714303653,
+        "y": 108.01502472465712
+      },
+      "data": {
+        "simvarName": "L:A32NX_EXT_PWR_AVAIL:1"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_2",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 563.9504602073746,
+        "y": 66.59785877723392,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_2",
+            "position": "right",
+            "x": 247.99977608604576,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_2",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 563.9504602073746,
+        "y": 66.59785877723392
+      },
+      "data": {
+        "text": "EXT PWR 1 .... {{L:A32NX_EXT_PWR_AVAIL:1 ? \"On\" : \"Connect\"}}",
+        "manualCheckEnabled": false,
+        "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_3",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 273.2728178995912,
+        "y": 180.54681845888717,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_3",
+            "position": "right",
+            "x": 197.99987027219768,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 273.2728178995912,
+        "y": 180.54681845888717
+      },
+      "data": {
+        "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_10",
+      "type": "checklist",
+      "dimensions": {
+        "width": 381,
+        "height": 328
+      },
+      "computedPosition": {
+        "x": 1009.6754967873535,
+        "y": 160.7676956117362,
+        "z": 1000
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": "default",
+            "type": "source",
+            "nodeId": "node_10",
+            "position": "right",
+            "x": 378.20288766646513,
+            "y": 95.39060114210285,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "changes",
+            "type": "source",
+            "nodeId": "node_10",
+            "position": "right",
+            "x": 378.20288766646513,
+            "y": 226.59346758943983,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": "input-0",
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 42.00004250831205,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-1",
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 66.99999541523609,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-2",
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 91.99994832216012,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-3",
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 116.99990122908414,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "input-4",
+            "type": "target",
+            "nodeId": "node_10",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 141.9998541360082,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": true,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1009.6754967873535,
+        "y": 160.7676956117362
+      },
+      "data": {
+        "name": "Startup",
+        "expandDots": true,
+        "expandDotsLengthExpression": "40"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_11",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1994.0594935171302,
+        "y": 322.7923233639988,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_11",
+            "position": "left",
+            "x": -3.0002375981902314,
+            "y": 64.99987755800248,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1994.0594935171302,
+        "y": 322.7923233639988
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft println {{value.value}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_12",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1610.2796925142325,
+        "y": 140.63496415655138,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_12",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 64.99987755800248,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1610.2796925142325,
+        "y": 140.63496415655138
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft fontsize 2"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_13",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1994.1952949715,
+        "y": 174.31681677734693,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_13",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 64.99987755800248,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1994.1952949715,
+        "y": 174.31681677734693
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft cursor 0 {{value.index * 20}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_14",
+      "type": "foreach",
+      "dimensions": {
+        "width": 266,
+        "height": 135
+      },
+      "computedPosition": {
+        "x": 1599.5473598850076,
+        "y": 294.71931719778536,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_14",
+            "position": "right",
+            "x": 262.71855157079466,
+            "y": 64.50000012454367,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_14",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 64.50000012454367,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1599.5473598850076,
+        "y": 294.71931719778536
+      },
+      "data": {
+        "arrayExpression": "{{split(value, \"\\n\")}}",
+        "outputWithIndex": true
+      },
+      "events": {}
+    },
+    {
+      "id": "node_20",
+      "type": "program-start",
+      "dimensions": {
+        "width": 217,
+        "height": 73
+      },
+      "computedPosition": {
+        "x": 1219.6127654923666,
+        "y": -57.94135160769957,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_20",
+            "position": "right",
+            "x": 213.51540903348882,
+            "y": 33.49999770761804,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1219.6127654923666,
+        "y": -57.94135160769957
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_21",
+      "type": "serial-output",
+      "dimensions": {
+        "width": 251,
+        "height": 136
+      },
+      "computedPosition": {
+        "x": 1483.4951180834125,
+        "y": -90.14996781471153,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_21",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 64.99993837034232,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1483.4951180834125,
+        "y": -90.14996781471153
+      },
+      "data": {
+        "deviceId": "123456789",
+        "command": "tft clear"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_44",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 252.49465981984972,
+        "y": 885.4125655082978,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_44",
+            "position": "right",
+            "x": 197.99980945985786,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 252.49465981984972,
+        "y": 885.4125655082978
+      },
+      "data": {
+        "simvarName": "L:A32NX_EXT_PWR_AVAIL:4"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_45",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 544.3652228841877,
+        "y": 843.9953995608746,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_45",
+            "position": "right",
+            "x": 247.99977608604576,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_45",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 544.3652228841877,
+        "y": 843.9953995608746
+      },
+      "data": {
+        "text": "EXT PWR 4 .... {{L:A32NX_EXT_PWR_AVAIL:4 ? \"On\" : \"Connect\"}}",
+        "manualCheckEnabled": false,
+        "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_46",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 253.68758057640437,
+        "y": 957.9443592425279,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_46",
+            "position": "right",
+            "x": 197.99983986602777,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 253.68758057640437,
+        "y": 957.9443592425279
+      },
+      "data": {
+        "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_47",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 255.1336756413955,
+        "y": 630.7475387291295,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_47",
+            "position": "right",
+            "x": 197.99977905368794,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 255.1336756413955,
+        "y": 630.7475387291295
+      },
+      "data": {
+        "simvarName": "L:A32NX_EXT_PWR_AVAIL:3"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_48",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 547.0042387057335,
+        "y": 589.3303727817063,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_48",
+            "position": "right",
+            "x": 247.99977608604576,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_48",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 547.0042387057335,
+        "y": 589.3303727817063
+      },
+      "data": {
+        "text": "EXT PWR 3 .... {{L:A32NX_EXT_PWR_AVAIL:3 ? \"On\" : \"Connect\"}}",
+        "manualCheckEnabled": false,
+        "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_49",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 256.3265963979502,
+        "y": 703.2793324633594,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_49",
+            "position": "right",
+            "x": 197.99983986602777,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 256.3265963979502,
+        "y": 703.2793324633594
+      },
+      "data": {
+        "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_50",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 259.0921993737142,
+        "y": 378.72152777150677,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_50",
+            "position": "right",
+            "x": 197.99980945985786,
+            "y": 34.499935011555166,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 259.0921993737142,
+        "y": 378.72152777150677
+      },
+      "data": {
+        "simvarName": "L:A32NX_EXT_PWR_AVAIL:2"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_51",
+      "type": "checklist-item",
+      "dimensions": {
+        "width": 251,
+        "height": 222
+      },
+      "computedPosition": {
+        "x": 550.9627624380523,
+        "y": 337.3043618240836,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_51",
+            "position": "right",
+            "x": 247.99977608604576,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_51",
+            "position": "left",
+            "x": -2.999994348830884,
+            "y": 107.9999181825915,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 550.9627624380523,
+        "y": 337.3043618240836
+      },
+      "data": {
+        "text": "EXT PWR 2 .... {{L:A32NX_EXT_PWR_AVAIL:2 ? \"On\" : \"Connect\"}}",
+        "manualCheckEnabled": false,
+        "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED}}"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_52",
+      "type": "simvar-input",
+      "dimensions": {
+        "width": 201,
+        "height": 75
+      },
+      "computedPosition": {
+        "x": 260.28512013026887,
+        "y": 451.25332150573684,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_52",
+            "position": "right",
+            "x": 197.99983986602777,
+            "y": 34.50005663623484,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 260.28512013026887,
+        "y": 451.25332150573684
+      },
+      "data": {
+        "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED"
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_node_2_default_node_10_input-0",
+      "type": "default",
+      "source": "node_2",
+      "target": "node_10",
+      "sourceHandle": null,
+      "targetHandle": "input-0",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_2",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_2",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392
+        },
+        "data": {
+          "text": "EXT PWR 1 .... {{L:A32NX_EXT_PWR_AVAIL:1 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 817.9502362934204,
+      "sourceY": 177.5977769598254,
+      "targetX": 1006.6755024385226,
+      "targetY": 205.76773812004825
+    },
+    {
+      "id": "edge_node_14_default_node_13_default",
+      "type": "default",
+      "source": "node_14",
+      "target": "node_13",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_14",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 262.71855157079466,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_14",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_13",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1994.1952949715,
+          "y": 174.31681677734693,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_13",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.99987755800248,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1994.1952949715,
+          "y": 174.31681677734693
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft cursor 0 {{value.index * 20}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1868.2659114558023,
+      "sourceY": 362.21931732232906,
+      "targetX": 1991.1953006226693,
+      "targetY": 242.3166943353494
+    },
+    {
+      "id": "edge_node_14_default_node_11_default",
+      "type": "default",
+      "source": "node_14",
+      "target": "node_11",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_14",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 262.71855157079466,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_14",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_11",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1994.0594935171302,
+          "y": 322.7923233639988,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_11",
+              "position": "left",
+              "x": -3.0002375981902314,
+              "y": 64.99987755800248,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1994.0594935171302,
+          "y": 322.7923233639988
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft println {{value.value}}"
+        },
+        "events": {}
+      },
+      "sourceX": 1868.2659114558023,
+      "sourceY": 362.21931732232906,
+      "targetX": 1991.05925591894,
+      "targetY": 390.79220092200126
+    },
+    {
+      "id": "edge_node_10_default_node_12_default",
+      "type": "default",
+      "source": "node_10",
+      "target": "node_12",
+      "sourceHandle": "default",
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_12",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1610.2796925142325,
+          "y": 140.63496415655138,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_12",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.99987755800248,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1610.2796925142325,
+          "y": 140.63496415655138
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft fontsize 2"
+        },
+        "events": {}
+      },
+      "sourceX": 1393.8783844538186,
+      "sourceY": 259.15829675383907,
+      "targetX": 1607.2796981654017,
+      "targetY": 208.63484171455386
+    },
+    {
+      "id": "edge_node_10_default_node_14_default",
+      "type": "default",
+      "source": "node_10",
+      "target": "node_14",
+      "sourceHandle": "default",
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_14",
+        "type": "foreach",
+        "dimensions": {
+          "width": 266,
+          "height": 135
+        },
+        "computedPosition": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 262.71855157079466,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_14",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.50000012454367,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1599.5473598850076,
+          "y": 294.71931719778536
+        },
+        "data": {
+          "arrayExpression": "{{split(value, \"\\n\")}}",
+          "outputWithIndex": true
+        },
+        "events": {}
+      },
+      "sourceX": 1393.8783844538186,
+      "sourceY": 259.15829675383907,
+      "targetX": 1596.5473655361768,
+      "targetY": 362.21931732232906
+    },
+    {
+      "id": "edge_node_20_default_node_21_default",
+      "type": "default",
+      "source": "node_20",
+      "target": "node_21",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_20",
+        "type": "program-start",
+        "dimensions": {
+          "width": 217,
+          "height": 73
+        },
+        "computedPosition": {
+          "x": 1219.6127654923666,
+          "y": -57.94135160769957,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_20",
+              "position": "right",
+              "x": 213.51540903348882,
+              "y": 33.49999770761804,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1219.6127654923666,
+          "y": -57.94135160769957
+        },
+        "data": {},
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_21",
+        "type": "serial-output",
+        "dimensions": {
+          "width": 251,
+          "height": 136
+        },
+        "computedPosition": {
+          "x": 1483.4951180834125,
+          "y": -90.14996781471153,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_21",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 64.99993837034232,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1483.4951180834125,
+          "y": -90.14996781471153
+        },
+        "data": {
+          "deviceId": "123456789",
+          "command": "tft clear"
+        },
+        "events": {}
+      },
+      "sourceX": 1439.1281745258555,
+      "sourceY": -21.44135390008153,
+      "targetX": 1480.4951237345817,
+      "targetY": -22.15002944436921
+    },
+    {
+      "id": "edge_node_1_default_node_2_default",
+      "type": "default",
+      "source": "node_1",
+      "target": "node_2",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_1",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 272.07989714303653,
+          "y": 108.01502472465712,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1",
+              "position": "right",
+              "x": 197.99980945985786,
+              "y": 34.50005663623484,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 272.07989714303653,
+          "y": 108.01502472465712
+        },
+        "data": {
+          "simvarName": "L:A32NX_EXT_PWR_AVAIL:1"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_2",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_2",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392
+        },
+        "data": {
+          "text": "EXT PWR 1 .... {{L:A32NX_EXT_PWR_AVAIL:1 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 476.07970660289436,
+      "sourceY": 145.51508136089197,
+      "targetX": 560.9504658585437,
+      "targetY": 177.5977769598254
+    },
+    {
+      "id": "edge_node_3_default_node_2_default",
+      "type": "default",
+      "source": "node_3",
+      "target": "node_2",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_3",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 273.2728178995912,
+          "y": 180.54681845888717,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_3",
+              "position": "right",
+              "x": 197.99987027219768,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 273.2728178995912,
+          "y": 180.54681845888717
+        },
+        "data": {
+          "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_2",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_2",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_2",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 563.9504602073746,
+          "y": 66.59785877723392
+        },
+        "data": {
+          "text": "EXT PWR 1 .... {{L:A32NX_EXT_PWR_AVAIL:1 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG1_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 477.2726881717889,
+      "sourceY": 218.04675347044235,
+      "targetX": 560.9504658585437,
+      "targetY": 177.5977769598254
+    },
+    {
+      "id": "edge_node_44_default_node_45_default",
+      "type": "default",
+      "source": "node_44",
+      "target": "node_45",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_44",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 252.49465981984972,
+          "y": 885.4125655082978,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_44",
+              "position": "right",
+              "x": 197.99980945985786,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 252.49465981984972,
+          "y": 885.4125655082978
+        },
+        "data": {
+          "simvarName": "L:A32NX_EXT_PWR_AVAIL:4"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_45",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_45",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_45",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746
+        },
+        "data": {
+          "text": "EXT PWR 4 .... {{L:A32NX_EXT_PWR_AVAIL:4 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 456.4944692797076,
+      "sourceY": 922.912500519853,
+      "targetX": 541.3652285353568,
+      "targetY": 954.9953177434661
+    },
+    {
+      "id": "edge_node_46_default_node_45_default",
+      "type": "default",
+      "source": "node_46",
+      "target": "node_45",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_46",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 253.68758057640437,
+          "y": 957.9443592425279,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_46",
+              "position": "right",
+              "x": 197.99983986602777,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 253.68758057640437,
+          "y": 957.9443592425279
+        },
+        "data": {
+          "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_45",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_45",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_45",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746
+        },
+        "data": {
+          "text": "EXT PWR 4 .... {{L:A32NX_EXT_PWR_AVAIL:4 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 457.68742044243214,
+      "sourceY": 995.444294254083,
+      "targetX": 541.3652285353568,
+      "targetY": 954.9953177434661
+    },
+    {
+      "id": "edge_node_47_default_node_48_default",
+      "type": "default",
+      "source": "node_47",
+      "target": "node_48",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_47",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 255.1336756413955,
+          "y": 630.7475387291295,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_47",
+              "position": "right",
+              "x": 197.99977905368794,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 255.1336756413955,
+          "y": 630.7475387291295
+        },
+        "data": {
+          "simvarName": "L:A32NX_EXT_PWR_AVAIL:3"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_48",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_48",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_48",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063
+        },
+        "data": {
+          "text": "EXT PWR 3 .... {{L:A32NX_EXT_PWR_AVAIL:3 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 459.13345469508346,
+      "sourceY": 668.2474737406847,
+      "targetX": 544.0042443569026,
+      "targetY": 700.3302909642978
+    },
+    {
+      "id": "edge_node_49_default_node_48_default",
+      "type": "default",
+      "source": "node_49",
+      "target": "node_48",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_49",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 256.3265963979502,
+          "y": 703.2793324633594,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_49",
+              "position": "right",
+              "x": 197.99983986602777,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 256.3265963979502,
+          "y": 703.2793324633594
+        },
+        "data": {
+          "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_48",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_48",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_48",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063
+        },
+        "data": {
+          "text": "EXT PWR 3 .... {{L:A32NX_EXT_PWR_AVAIL:3 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 460.32643626397794,
+      "sourceY": 740.7792674749146,
+      "targetX": 544.0042443569026,
+      "targetY": 700.3302909642978
+    },
+    {
+      "id": "edge_node_50_default_node_51_default",
+      "type": "default",
+      "source": "node_50",
+      "target": "node_51",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_50",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 259.0921993737142,
+          "y": 378.72152777150677,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_50",
+              "position": "right",
+              "x": 197.99980945985786,
+              "y": 34.499935011555166,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 259.0921993737142,
+          "y": 378.72152777150677
+        },
+        "data": {
+          "simvarName": "L:A32NX_EXT_PWR_AVAIL:2"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_51",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_51",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_51",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836
+        },
+        "data": {
+          "text": "EXT PWR 2 .... {{L:A32NX_EXT_PWR_AVAIL:2 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 463.0920088335721,
+      "sourceY": 416.22146278306195,
+      "targetX": 547.9627680892214,
+      "targetY": 448.3042800066751
+    },
+    {
+      "id": "edge_node_52_default_node_51_default",
+      "type": "default",
+      "source": "node_52",
+      "target": "node_51",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_52",
+        "type": "simvar-input",
+        "dimensions": {
+          "width": 201,
+          "height": 75
+        },
+        "computedPosition": {
+          "x": 260.28512013026887,
+          "y": 451.25332150573684,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_52",
+              "position": "right",
+              "x": 197.99983986602777,
+              "y": 34.50005663623484,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 260.28512013026887,
+          "y": 451.25332150573684
+        },
+        "data": {
+          "simvarName": "L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_51",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_51",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_51",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836
+        },
+        "data": {
+          "text": "EXT PWR 2 .... {{L:A32NX_EXT_PWR_AVAIL:2 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "sourceX": 464.2849599962966,
+      "sourceY": 488.75337814197167,
+      "targetX": 547.9627680892214,
+      "targetY": 448.3042800066751
+    },
+    {
+      "id": "edge_node_51_default_node_10_input-1",
+      "type": "default",
+      "source": "node_51",
+      "target": "node_10",
+      "sourceHandle": null,
+      "targetHandle": "input-1",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_51",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_51",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_51",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 550.9627624380523,
+          "y": 337.3043618240836
+        },
+        "data": {
+          "text": "EXT PWR 2 .... {{L:A32NX_EXT_PWR_AVAIL:2 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG2_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 804.9625385240981,
+      "sourceY": 448.3042800066751,
+      "targetX": 1006.6755024385226,
+      "targetY": 230.76769102697227
+    },
+    {
+      "id": "edge_node_48_default_node_10_input-2",
+      "type": "default",
+      "source": "node_48",
+      "target": "node_10",
+      "sourceHandle": null,
+      "targetHandle": "input-2",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_48",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_48",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_48",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 547.0042387057335,
+          "y": 589.3303727817063
+        },
+        "data": {
+          "text": "EXT PWR 3 .... {{L:A32NX_EXT_PWR_AVAIL:3 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG3_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 801.0040147917794,
+      "sourceY": 700.3302909642978,
+      "targetX": 1006.6755024385226,
+      "targetY": 255.76764393389632
+    },
+    {
+      "id": "edge_node_45_default_node_10_input-3",
+      "type": "default",
+      "source": "node_45",
+      "target": "node_10",
+      "sourceHandle": null,
+      "targetHandle": "input-3",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_45",
+        "type": "checklist-item",
+        "dimensions": {
+          "width": 251,
+          "height": 222
+        },
+        "computedPosition": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_45",
+              "position": "right",
+              "x": 247.99977608604576,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_45",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 107.9999181825915,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 544.3652228841877,
+          "y": 843.9953995608746
+        },
+        "data": {
+          "text": "EXT PWR 4 .... {{L:A32NX_EXT_PWR_AVAIL:4 ? \"On\" : \"Connect\"}}",
+          "manualCheckEnabled": false,
+          "checked": "{{L:A32NX_ELEC_CONTACTOR_990XG4_IS_CLOSED}}"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_10",
+        "type": "checklist",
+        "dimensions": {
+          "width": 381,
+          "height": 328
+        },
+        "computedPosition": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "default",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 95.39060114210285,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "changes",
+              "type": "source",
+              "nodeId": "node_10",
+              "position": "right",
+              "x": 378.20288766646513,
+              "y": 226.59346758943983,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "input-0",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 42.00004250831205,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-1",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 66.99999541523609,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-2",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 91.99994832216012,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-3",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 116.99990122908414,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "input-4",
+              "type": "target",
+              "nodeId": "node_10",
+              "position": "left",
+              "x": -2.999994348830884,
+              "y": 141.9998541360082,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1009.6754967873535,
+          "y": 160.7676956117362
+        },
+        "data": {
+          "name": "Startup",
+          "expandDots": true,
+          "expandDotsLengthExpression": "40"
+        },
+        "events": {}
+      },
+      "sourceX": 798.3649989702335,
+      "sourceY": 954.9953177434661,
+      "targetX": 1006.6755024385226,
+      "targetY": 280.7675968408204
+    }
+  ],
+  "settings": {
+    "activation": {
+      "aircraftName": "A380X"
+    }
+  }
+}
