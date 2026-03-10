@@ -148,7 +148,7 @@
       "computedPosition": {
         "x": 1009.6754967873535,
         "y": 160.7676956117362,
-        "z": 1000
+        "z": 0
       },
       "handleBounds": {
         "source": [
@@ -226,7 +226,7 @@
           }
         ]
       },
-      "selected": true,
+      "selected": false,
       "dragging": false,
       "resizing": false,
       "initialized": false,
@@ -986,7 +986,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -1064,7 +1064,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -1325,7 +1325,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -1403,7 +1403,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -1486,7 +1486,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -1564,7 +1564,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -2688,7 +2688,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -2766,7 +2766,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -2861,7 +2861,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -2939,7 +2939,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -3034,7 +3034,7 @@
         "computedPosition": {
           "x": 1009.6754967873535,
           "y": 160.7676956117362,
-          "z": 1000
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -3112,7 +3112,7 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,

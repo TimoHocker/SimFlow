@@ -1,0 +1,1508 @@
+{
+  "id": "flow_1773003688820",
+  "name": "Touch test",
+  "nodes": [
+    {
+      "id": "node_14",
+      "type": "serial-input",
+      "dimensions": {
+        "width": 251,
+        "height": 81
+      },
+      "computedPosition": {
+        "x": -28.74232235741448,
+        "y": 1110.4921300175251,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_14",
+            "position": "right",
+            "x": 248.00002624505146,
+            "y": 37.50003058418235,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": -28.74232235741448,
+        "y": 1110.4921300175251
+      },
+      "data": {
+        "pattern": "touch"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_16",
+      "type": "screen",
+      "dimensions": {
+        "width": 213,
+        "height": 326
+      },
+      "computedPosition": {
+        "x": 1327.6916313274319,
+        "y": 764.8799085578903,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": "display",
+            "type": "source",
+            "nodeId": "node_16",
+            "position": "right",
+            "x": 209.999956226389,
+            "y": 111.09381671174775,
+            "width": 6,
+            "height": 6
+          },
+          {
+            "id": "touch",
+            "type": "source",
+            "nodeId": "node_16",
+            "position": "right",
+            "x": 209.999956226389,
+            "y": 225.18751162198927,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_16",
+            "position": "left",
+            "x": -2.999997667956096,
+            "y": 160.0000747400956,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1327.6916313274319,
+        "y": 764.8799085578903
+      },
+      "data": {
+        "width": 480,
+        "height": 320,
+        "lineheight": 20
+      },
+      "events": {}
+    },
+    {
+      "id": "node_17",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 275.57202088640327,
+        "y": 1066.511551557053,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_17",
+            "position": "right",
+            "x": 450.00000860180126,
+            "y": 76.99997996736056,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_17",
+            "position": "left",
+            "x": -2.999997667956096,
+            "y": 76.99997996736056,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 275.57202088640327,
+        "y": 1066.511551557053
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "{{split(substring(value, 6), \" \")}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_18",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 238
+      },
+      "computedPosition": {
+        "x": 772.0211217707356,
+        "y": 1067.879463812973,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_18",
+            "position": "right",
+            "x": 450.00000860180126,
+            "y": 115.9999496507898,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_18",
+            "position": "left",
+            "x": -2.999997667956096,
+            "y": 115.9999496507898,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 772.0211217707356,
+        "y": 1067.879463812973
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "command",
+            "value": "touch"
+          },
+          {
+            "name": "x",
+            "value": "{{int(value[0])}}"
+          },
+          {
+            "name": "y",
+            "value": "{{int(value[1])}}"
+          }
+        ]
+      },
+      "events": {}
+    },
+    {
+      "id": "node_20",
+      "type": "debug",
+      "dimensions": {
+        "width": 260,
+        "height": 89
+      },
+      "computedPosition": {
+        "x": 792.2875666880594,
+        "y": 1385.4345634688611,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_20",
+            "position": "right",
+            "x": 257.0000789836509,
+            "y": 41.499987651636374,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_20",
+            "position": "left",
+            "x": -3.000117137418401,
+            "y": 41.499987651636374,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 792.2875666880594,
+        "y": 1385.4345634688611
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_21",
+      "type": "debug",
+      "dimensions": {
+        "width": 260,
+        "height": 89
+      },
+      "computedPosition": {
+        "x": 1665.3851932636735,
+        "y": 802.1760182167482,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_21",
+            "position": "right",
+            "x": 257.0003179225755,
+            "y": 41.499987651636374,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_21",
+            "position": "left",
+            "x": -2.99987819849379,
+            "y": 41.499987651636374,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1665.3851932636735,
+        "y": 802.1760182167482
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_22",
+      "type": "debug",
+      "dimensions": {
+        "width": 260,
+        "height": 89
+      },
+      "computedPosition": {
+        "x": 1668.645040633563,
+        "y": 1019.2279701163136,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_22",
+            "position": "right",
+            "x": 256.9998400447263,
+            "y": 41.50010712109868,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_22",
+            "position": "left",
+            "x": -3.000117137418401,
+            "y": 41.50010712109868,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": true,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 1668.645040633563,
+        "y": 1019.2279701163136
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_23",
+      "type": "inject",
+      "dimensions": {
+        "width": 180,
+        "height": 88
+      },
+      "computedPosition": {
+        "x": 424.4894873357902,
+        "y": 817.8779180139717,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_23",
+            "position": "right",
+            "x": 176.99998187887195,
+            "y": 41.00000795188741,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 424.4894873357902,
+        "y": 817.8779180139717
+      },
+      "data": {},
+      "events": {}
+    },
+    {
+      "id": "node_24",
+      "type": "transform",
+      "dimensions": {
+        "width": 453,
+        "height": 160
+      },
+      "computedPosition": {
+        "x": 696.3579703335182,
+        "y": 781.4117673251613,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_24",
+            "position": "right",
+            "x": 450.00000860180126,
+            "y": 76.99997996736056,
+            "width": 6,
+            "height": 6
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_24",
+            "position": "left",
+            "x": -2.99987819849379,
+            "y": 76.99997996736056,
+            "width": 6,
+            "height": 6
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 696.3579703335182,
+        "y": 781.4117673251613
+      },
+      "data": {
+        "fields": [
+          {
+            "name": "",
+            "value": "[Test]\n\n- 123\n- 456\nasdasdasd\n"
+          }
+        ]
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_node_14_default_node_17_default",
+      "type": "default",
+      "source": "node_14",
+      "target": "node_17",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_14",
+        "type": "serial-input",
+        "dimensions": {
+          "width": 251,
+          "height": 81
+        },
+        "computedPosition": {
+          "x": -28.74232235741448,
+          "y": 1110.4921300175251,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_14",
+              "position": "right",
+              "x": 248.00002624505146,
+              "y": 37.50003058418235,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": -28.74232235741448,
+          "y": 1110.4921300175251
+        },
+        "data": {
+          "pattern": "touch"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{split(substring(value, 6), \" \")}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 225.25770388763698,
+      "sourceY": 1150.9921606017074,
+      "targetX": 272.57202321844716,
+      "targetY": 1146.5115315244136
+    },
+    {
+      "id": "edge_node_17_default_node_18_default",
+      "type": "default",
+      "source": "node_17",
+      "target": "node_18",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{split(substring(value, 6), \" \")}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_18",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 238
+        },
+        "computedPosition": {
+          "x": 772.0211217707356,
+          "y": 1067.879463812973,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_18",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 115.9999496507898,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_18",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 115.9999496507898,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 772.0211217707356,
+          "y": 1067.879463812973
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "command",
+              "value": "touch"
+            },
+            {
+              "name": "x",
+              "value": "{{int(value[0])}}"
+            },
+            {
+              "name": "y",
+              "value": "{{int(value[1])}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 731.5720294882045,
+      "sourceY": 1146.5115315244136,
+      "targetX": 769.0211241027795,
+      "targetY": 1186.8794134637628,
+      "selected": false
+    },
+    {
+      "id": "edge_node_17_default_node_20_default",
+      "type": "default",
+      "source": "node_17",
+      "target": "node_20",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_17",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_17",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_17",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 275.57202088640327,
+          "y": 1066.511551557053
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "{{split(substring(value, 6), \" \")}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_20",
+        "type": "debug",
+        "dimensions": {
+          "width": 260,
+          "height": 89
+        },
+        "computedPosition": {
+          "x": 792.2875666880594,
+          "y": 1385.4345634688611,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_20",
+              "position": "right",
+              "x": 257.0000789836509,
+              "y": 41.499987651636374,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_20",
+              "position": "left",
+              "x": -3.000117137418401,
+              "y": 41.499987651636374,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 792.2875666880594,
+          "y": 1385.4345634688611
+        },
+        "data": {},
+        "events": {}
+      },
+      "sourceX": 731.5720294882045,
+      "sourceY": 1146.5115315244136,
+      "targetX": 789.287449550641,
+      "targetY": 1429.9345511204974
+    },
+    {
+      "id": "edge_node_18_default_node_16_default",
+      "type": "default",
+      "source": "node_18",
+      "target": "node_16",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_18",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 238
+        },
+        "computedPosition": {
+          "x": 772.0211217707356,
+          "y": 1067.879463812973,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_18",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 115.9999496507898,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_18",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 115.9999496507898,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 772.0211217707356,
+          "y": 1067.879463812973
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "command",
+              "value": "touch"
+            },
+            {
+              "name": "x",
+              "value": "{{int(value[0])}}"
+            },
+            {
+              "name": "y",
+              "value": "{{int(value[1])}}"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_16",
+        "type": "screen",
+        "dimensions": {
+          "width": 213,
+          "height": 326
+        },
+        "computedPosition": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "display",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 111.09381671174775,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "touch",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 225.18751162198927,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 160.0000747400956,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903
+        },
+        "data": {
+          "width": 480,
+          "height": 320,
+          "lineheight": 20
+        },
+        "events": {}
+      },
+      "sourceX": 1228.0211303725368,
+      "sourceY": 1186.8794134637628,
+      "targetX": 1324.6916336594759,
+      "targetY": 927.879983297986
+    },
+    {
+      "id": "edge_node_16_display_node_21_default",
+      "type": "default",
+      "source": "node_16",
+      "target": "node_21",
+      "sourceHandle": "display",
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_16",
+        "type": "screen",
+        "dimensions": {
+          "width": 213,
+          "height": 326
+        },
+        "computedPosition": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "display",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 111.09381671174775,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "touch",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 225.18751162198927,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 160.0000747400956,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903
+        },
+        "data": {
+          "width": 480,
+          "height": 320,
+          "lineheight": 20
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_21",
+        "type": "debug",
+        "dimensions": {
+          "width": 260,
+          "height": 89
+        },
+        "computedPosition": {
+          "x": 1665.3851932636735,
+          "y": 802.1760182167482,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_21",
+              "position": "right",
+              "x": 257.0003179225755,
+              "y": 41.499987651636374,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_21",
+              "position": "left",
+              "x": -2.99987819849379,
+              "y": 41.499987651636374,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1665.3851932636735,
+          "y": 802.1760182167482
+        },
+        "data": {},
+        "events": {}
+      },
+      "sourceX": 1543.691587553821,
+      "sourceY": 878.9737252696381,
+      "targetX": 1662.3853150651796,
+      "targetY": 846.6760058683846
+    },
+    {
+      "id": "edge_node_16_touch_node_22_default",
+      "type": "default",
+      "source": "node_16",
+      "target": "node_22",
+      "sourceHandle": "touch",
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_16",
+        "type": "screen",
+        "dimensions": {
+          "width": 213,
+          "height": 326
+        },
+        "computedPosition": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "display",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 111.09381671174775,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "touch",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 225.18751162198927,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 160.0000747400956,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903
+        },
+        "data": {
+          "width": 480,
+          "height": 320,
+          "lineheight": 20
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_22",
+        "type": "debug",
+        "dimensions": {
+          "width": 260,
+          "height": 89
+        },
+        "computedPosition": {
+          "x": 1668.645040633563,
+          "y": 1019.2279701163136,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_22",
+              "position": "right",
+              "x": 256.9998400447263,
+              "y": 41.50010712109868,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_22",
+              "position": "left",
+              "x": -3.000117137418401,
+              "y": 41.50010712109868,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": true,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1668.645040633563,
+          "y": 1019.2279701163136
+        },
+        "data": {},
+        "events": {}
+      },
+      "sourceX": 1543.691587553821,
+      "sourceY": 993.0674201798796,
+      "targetX": 1665.6449234961447,
+      "targetY": 1063.7280772374122
+    },
+    {
+      "id": "edge_node_23_default_node_24_default",
+      "type": "default",
+      "source": "node_23",
+      "target": "node_24",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_23",
+        "type": "inject",
+        "dimensions": {
+          "width": 180,
+          "height": 88
+        },
+        "computedPosition": {
+          "x": 424.4894873357902,
+          "y": 817.8779180139717,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_23",
+              "position": "right",
+              "x": 176.99998187887195,
+              "y": 41.00000795188741,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 424.4894873357902,
+          "y": 817.8779180139717
+        },
+        "data": {},
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_24",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 696.3579703335182,
+          "y": 781.4117673251613,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_24",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_24",
+              "position": "left",
+              "x": -2.99987819849379,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 696.3579703335182,
+          "y": 781.4117673251613
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "[Test]\n\n- 123\n- 456\nasdasdasd\n"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 607.4894692146622,
+      "sourceY": 861.877925965859,
+      "targetX": 693.3580921350244,
+      "targetY": 861.4117472925219
+    },
+    {
+      "id": "edge_node_24_default_node_16_default",
+      "type": "default",
+      "source": "node_24",
+      "target": "node_16",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "node_24",
+        "type": "transform",
+        "dimensions": {
+          "width": 453,
+          "height": 160
+        },
+        "computedPosition": {
+          "x": 696.3579703335182,
+          "y": 781.4117673251613,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_24",
+              "position": "right",
+              "x": 450.00000860180126,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_24",
+              "position": "left",
+              "x": -2.99987819849379,
+              "y": 76.99997996736056,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 696.3579703335182,
+          "y": 781.4117673251613
+        },
+        "data": {
+          "fields": [
+            {
+              "name": "",
+              "value": "[Test]\n\n- 123\n- 456\nasdasdasd\n"
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_16",
+        "type": "screen",
+        "dimensions": {
+          "width": 213,
+          "height": 326
+        },
+        "computedPosition": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "display",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 111.09381671174775,
+              "width": 6,
+              "height": 6
+            },
+            {
+              "id": "touch",
+              "type": "source",
+              "nodeId": "node_16",
+              "position": "right",
+              "x": 209.999956226389,
+              "y": 225.18751162198927,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_16",
+              "position": "left",
+              "x": -2.999997667956096,
+              "y": 160.0000747400956,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 1327.6916313274319,
+          "y": 764.8799085578903
+        },
+        "data": {
+          "width": 480,
+          "height": 320,
+          "lineheight": 20
+        },
+        "events": {}
+      },
+      "sourceX": 1152.3579789353194,
+      "sourceY": 861.4117472925219,
+      "targetX": 1324.6916336594759,
+      "targetY": 927.879983297986
+    }
+  ],
+  "settings": {
+    "activation": {
+      "aircraftName": ""
+    }
+  }
+}
