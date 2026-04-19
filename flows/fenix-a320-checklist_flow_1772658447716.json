@@ -43,7 +43,8 @@
         "name": "Startup",
         "expandDots": true,
         "expandDotsLengthExpression": "40",
-        "addScreenAnnotators": false
+        "addScreenAnnotators": false,
+        "maxVisibleItems": 0
       }
     },
     {
@@ -449,7 +450,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 427.4295897311985,
@@ -463,8 +464,8 @@
               "type": "source",
               "nodeId": "node_2",
               "position": "right",
-              "x": 248,
-              "y": 138,
+              "x": 247.99993896484375,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -476,7 +477,7 @@
               "nodeId": "node_2",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -505,7 +506,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -520,7 +521,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -530,7 +531,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -671,12 +672,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
-      "sourceX": 681.4295897311986,
-      "sourceY": -156.96631200417903,
+      "sourceX": 681.4295286960423,
+      "sourceY": -113.46631200417903,
       "targetX": 783.9483450086284,
       "targetY": 185.78075188016172
     },
@@ -695,7 +697,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 141.40082882866068,
@@ -709,8 +711,8 @@
               "type": "source",
               "nodeId": "node_8",
               "position": "right",
-              "x": 248,
-              "y": 138,
+              "x": 247.99998474121094,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -722,7 +724,7 @@
               "nodeId": "node_8",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -751,7 +753,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -766,7 +768,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -776,7 +778,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -917,12 +919,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
-      "sourceX": 395.4008288286607,
-      "sourceY": -15.240729366860677,
+      "sourceX": 395.4008135698716,
+      "sourceY": 28.259270633139323,
       "targetX": 783.9483450086284,
       "targetY": 235.78075188016172
     },
@@ -941,7 +944,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": -134.11012667748182,
@@ -956,7 +959,7 @@
               "nodeId": "node_19",
               "position": "right",
               "x": 248.00001525878906,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -968,7 +971,7 @@
               "nodeId": "node_19",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -997,7 +1000,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -1012,7 +1015,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -1022,7 +1025,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -1163,12 +1166,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 119.88988858130725,
-      "sourceY": 83.32919210843497,
+      "sourceY": 126.82919210843497,
       "targetX": 783.9483450086284,
       "targetY": 260.7807518801617,
       "selected": false
@@ -1188,7 +1192,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": -142.70480222234426,
@@ -1203,7 +1207,7 @@
               "nodeId": "node_20",
               "position": "right",
               "x": 248,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -1215,7 +1219,7 @@
               "nodeId": "node_20",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -1245,7 +1249,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -1260,7 +1264,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -1270,7 +1274,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -1411,12 +1415,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 111.29519777765574,
-      "sourceY": 398.3860956478201,
+      "sourceY": 441.8860956478201,
       "targetX": 783.9483450086284,
       "targetY": 285.7807518801617
     },
@@ -1435,7 +1440,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 306
+          "height": 393
         },
         "computedPosition": {
           "x": 192.6024284091202,
@@ -1449,8 +1454,8 @@
               "type": "source",
               "nodeId": "node_10",
               "position": "right",
-              "x": 248,
-              "y": 150,
+              "x": 247.99993896484375,
+              "y": 193.5,
               "width": 6,
               "height": 6
             }
@@ -1462,7 +1467,7 @@
               "nodeId": "node_10",
               "position": "left",
               "x": -3,
-              "y": 150,
+              "y": 193.5,
               "width": 6,
               "height": 6
             }
@@ -1489,7 +1494,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -1504,7 +1509,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -1514,7 +1519,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -1655,12 +1660,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
-      "sourceX": 446.6024284091202,
-      "sourceY": 655.4117468464163,
+      "sourceX": 446.60236737396394,
+      "sourceY": 698.9117468464163,
       "targetX": 783.9483450086284,
       "targetY": 410.7807518801617
     },
@@ -1679,7 +1685,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 330
+          "height": 417
         },
         "computedPosition": {
           "x": -82.45712121575829,
@@ -1694,17 +1700,7 @@
               "nodeId": "node_12",
               "position": "right",
               "x": 248,
-              "y": 162.00006103515625,
-              "width": 6,
-              "height": 6
-            },
-            {
-              "id": "text-change",
-              "type": "source",
-              "nodeId": "node_12",
-              "position": "right",
-              "x": 248,
-              "y": 261.00006103515625,
+              "y": 205.5,
               "width": 6,
               "height": 6
             }
@@ -1716,7 +1712,7 @@
               "nodeId": "node_12",
               "position": "left",
               "x": -3,
-              "y": 162.00006103515625,
+              "y": 205.5,
               "width": 6,
               "height": 6
             }
@@ -1744,7 +1740,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -1759,7 +1755,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -1769,7 +1765,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -1910,12 +1906,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 171.5428787842417,
-      "sourceY": 924.7773412966347,
+      "sourceY": 968.2772802614785,
       "targetX": 783.9483450086284,
       "targetY": 435.7807518801617
     },
@@ -1934,7 +1931,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 434.5728209549309,
@@ -1949,7 +1946,7 @@
               "nodeId": "node_31",
               "position": "right",
               "x": 248,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -1961,7 +1958,7 @@
               "nodeId": "node_31",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -1989,7 +1986,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -2004,7 +2001,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -2014,7 +2011,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -2155,12 +2152,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 688.5728209549309,
-      "sourceY": 94.84900075082439,
+      "sourceY": 138.3490007508244,
       "targetX": 783.9483450086284,
       "targetY": 210.78075188016172
     },
@@ -2179,7 +2177,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 258.45054799001156,
@@ -2193,8 +2191,8 @@
               "type": "source",
               "nodeId": "node_41",
               "position": "right",
-              "x": 248,
-              "y": 138,
+              "x": 247.99996948242188,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2206,7 +2204,7 @@
               "nodeId": "node_41",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2234,7 +2232,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -2249,7 +2247,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -2259,7 +2257,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -2400,12 +2398,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
-      "sourceX": 512.4505479900115,
-      "sourceY": 1024.7684401224878,
+      "sourceX": 512.4505174724334,
+      "sourceY": 1068.2684401224878,
       "targetX": 783.9483450086284,
       "targetY": 310.7807518801617
     },
@@ -2424,7 +2423,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 567.4749390008252,
@@ -2439,7 +2438,7 @@
               "nodeId": "node_50",
               "position": "right",
               "x": 248,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2451,7 +2450,7 @@
               "nodeId": "node_50",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2479,7 +2478,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -2494,7 +2493,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -2504,7 +2503,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -2645,12 +2644,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 821.4749390008252,
-      "sourceY": 989.3375086450203,
+      "sourceY": 1032.8375086450203,
       "targetX": 783.9483450086284,
       "targetY": 335.7807518801617
     },
@@ -2669,7 +2669,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 468.04761302792986,
@@ -2684,7 +2684,7 @@
               "nodeId": "node_52",
               "position": "right",
               "x": 248,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2696,7 +2696,7 @@
               "nodeId": "node_52",
               "position": "left",
               "x": -3,
-              "y": 138,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2724,7 +2724,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -2739,7 +2739,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -2749,7 +2749,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -2890,12 +2890,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 722.0476130279299,
-      "sourceY": 490.2024784979587,
+      "sourceY": 533.7024784979587,
       "targetX": 783.9483450086284,
       "targetY": 360.7807518801617
     },
@@ -2914,7 +2915,7 @@
         "type": "checklist-item",
         "dimensions": {
           "width": 251,
-          "height": 282
+          "height": 369
         },
         "computedPosition": {
           "x": 496.03876240442503,
@@ -2929,7 +2930,7 @@
               "nodeId": "node_54",
               "position": "right",
               "x": 248,
-              "y": 137.9998779296875,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2941,7 +2942,7 @@
               "nodeId": "node_54",
               "position": "left",
               "x": -3,
-              "y": 137.9998779296875,
+              "y": 181.5,
               "width": 6,
               "height": 6
             }
@@ -2969,7 +2970,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -2984,7 +2985,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -2994,7 +2995,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -3135,12 +3136,13 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
       "sourceX": 750.038762404425,
-      "sourceY": 1927.1196539690127,
+      "sourceY": 1970.6197760393252,
       "targetX": 783.9483450086284,
       "targetY": 385.7807518801617
     },
@@ -3429,7 +3431,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -3439,7 +3441,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -3449,7 +3451,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -3459,7 +3461,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -3469,8 +3471,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -3562,7 +3564,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -3572,7 +3574,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -3582,7 +3584,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -3592,7 +3594,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -3602,8 +3604,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -3703,7 +3705,7 @@
         },
         "events": {}
       },
-      "sourceX": 2265.165680154622,
+      "sourceX": 2265.165436013997,
       "sourceY": 211.0141055545754,
       "targetX": 2367.510005028705,
       "targetY": 157.41019015306563
@@ -3737,7 +3739,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -3747,7 +3749,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -3757,7 +3759,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -3767,7 +3769,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -3777,8 +3779,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -3857,7 +3859,7 @@
               "nodeId": "node_66",
               "position": "left",
               "x": -3,
-              "y": 64.99996948242188,
+              "y": 65,
               "width": 6,
               "height": 6
             }
@@ -3878,10 +3880,10 @@
         },
         "events": {}
       },
-      "sourceX": 2265.165680154622,
+      "sourceX": 2265.165436013997,
       "sourceY": 300.0141055545754,
       "targetX": 2371.5968472609875,
-      "targetY": 318.5897168416626
+      "targetY": 318.58974735924073
     },
     {
       "id": "edge_node_63_node_63-case-2_node_67_default",
@@ -3912,7 +3914,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -3922,7 +3924,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -3932,7 +3934,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -3942,7 +3944,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -3952,8 +3954,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -4053,7 +4055,7 @@
         },
         "events": {}
       },
-      "sourceX": 2265.165680154622,
+      "sourceX": 2265.165436013997,
       "sourceY": 389.0141055545754,
       "targetX": 2379.629661606372,
       "targetY": 466.62304029562074
@@ -4087,7 +4089,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -4097,7 +4099,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -4107,7 +4109,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -4117,7 +4119,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -4127,8 +4129,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -4228,7 +4230,7 @@
         },
         "events": {}
       },
-      "sourceX": 2265.165680154622,
+      "sourceX": 2265.165436013997,
       "sourceY": 478.0141055545754,
       "targetX": 2376.394839462473,
       "targetY": 611.915816268046
@@ -4262,7 +4264,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 87,
               "width": 6,
               "height": 6
@@ -4272,7 +4274,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 176,
               "width": 6,
               "height": 6
@@ -4282,7 +4284,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 265,
               "width": 6,
               "height": 6
@@ -4292,7 +4294,7 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
+              "x": 270.999755859375,
               "y": 354,
               "width": 6,
               "height": 6
@@ -4302,8 +4304,8 @@
               "type": "source",
               "nodeId": "node_63",
               "position": "right",
-              "x": 271,
-              "y": 443,
+              "x": 270.999755859375,
+              "y": 442.99993896484375,
               "width": 6,
               "height": 6
             }
@@ -4403,8 +4405,8 @@
         },
         "events": {}
       },
-      "sourceX": 2265.165680154622,
-      "sourceY": 567.0141055545754,
+      "sourceX": 2265.165436013997,
+      "sourceY": 567.0140445194191,
       "targetX": 2372.281569448809,
       "targetY": 767.3759668980172
     },
@@ -4437,7 +4439,7 @@
               "type": "source",
               "nodeId": "node_62",
               "position": "right",
-              "x": 270.9998779296875,
+              "x": 271,
               "y": 87,
               "width": 6,
               "height": 6
@@ -4529,7 +4531,7 @@
         },
         "events": {}
       },
-      "sourceX": 1908.803234012813,
+      "sourceX": 1908.8033560831254,
       "sourceY": 645.9521641765725,
       "targetX": 1979.320778227655,
       "targetY": 650.0154227434994
@@ -4549,7 +4551,7 @@
         "type": "checklist",
         "dimensions": {
           "width": 251,
-          "height": 524
+          "height": 604
         },
         "computedPosition": {
           "x": 786.9483450086284,
@@ -4564,7 +4566,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 154.1875,
+              "y": 178.1875,
               "width": 6,
               "height": 6
             },
@@ -4574,7 +4576,7 @@
               "nodeId": "node_9",
               "position": "right",
               "x": 248,
-              "y": 363.796875,
+              "y": 419.796875,
               "width": 6,
               "height": 6
             }
@@ -4715,7 +4717,8 @@
           "name": "Startup",
           "expandDots": true,
           "expandDotsLengthExpression": "40",
-          "addScreenAnnotators": false
+          "addScreenAnnotators": false,
+          "maxVisibleItems": 0
         },
         "events": {}
       },
@@ -4801,7 +4804,7 @@
         "events": {}
       },
       "sourceX": 1040.9483450086284,
-      "sourceY": 297.9682518801617,
+      "sourceY": 321.9682518801617,
       "targetX": 1238.0137565121686,
       "targetY": 363.34241895863045
     },
@@ -5064,7 +5067,7 @@
               "type": "source",
               "nodeId": "node_62",
               "position": "right",
-              "x": 270.9998779296875,
+              "x": 271,
               "y": 87,
               "width": 6,
               "height": 6
@@ -5138,7 +5141,7 @@
               "nodeId": "node_71",
               "position": "right",
               "x": 248,
-              "y": 37.5,
+              "y": 37.4998779296875,
               "width": 6,
               "height": 6
             }
@@ -5217,7 +5220,7 @@
         "events": {}
       },
       "sourceX": 1195.2286718433793,
-      "sourceY": 1027.295244422506,
+      "sourceY": 1027.2951223521934,
       "targetX": 1268.2253233288761,
       "targetY": 1023.7064186379152
     },
@@ -5307,7 +5310,7 @@
               "type": "source",
               "nodeId": "node_73",
               "position": "right",
-              "x": 450,
+              "x": 450.0001220703125,
               "y": 96.5,
               "width": 6,
               "height": 6
@@ -5383,7 +5386,7 @@
               "type": "source",
               "nodeId": "node_73",
               "position": "right",
-              "x": 450,
+              "x": 450.0001220703125,
               "y": 96.5,
               "width": 6,
               "height": 6
@@ -5506,7 +5509,7 @@
         },
         "events": {}
       },
-      "sourceX": 2249.170711744214,
+      "sourceX": 2249.1708338145263,
       "sourceY": 999.4951134460291,
       "targetX": 1383.0137565121686,
       "targetY": 286.34241895863045
