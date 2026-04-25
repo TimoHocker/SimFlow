@@ -58,7 +58,7 @@ void read_next_ads() {
 
 void setup()
 {
-  Serial.begin(921600); //This pipes to the serial monitor
+  Serial.begin(115200); //This pipes to the serial monitor
 
   pinMode(5, INPUT);
   pinMode(7, INPUT);
@@ -128,12 +128,11 @@ void exec_command(String cmd) {
 
 void loop()
 {
-  while (Serial.available() > 0) {
+  if (Serial.available() > 0) {
     String recvLine = Serial.readStringUntil('\n');
-    if (recvLine.length() == 0) {
-      break;
+    if (recvLine.length() > 0) {
+      exec_command(recvLine);
     }
-    exec_command(recvLine);
   }
 
   if (!identified) {
